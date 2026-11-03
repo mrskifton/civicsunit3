@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flashcards · Constitution Test Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main>
+  <div class="page-head">
+    <h2>Flashcards</h2>
+    <p>Read the question, try to answer it in your head, then flip the card to check.</p>
+  </div>
+
+  <div class="panel">
+    <div class="flash-controls">
+      <label class="field-label" for="topic-select">Study mode</label>
+      <select id="topic-select">
+        <option value="mixed">Mixed review (all topics)</option>
+      </select>
+    </div>
+
+    <div class="card-count" id="card-counter" aria-live="polite">Loading cards…</div>
+
+    <button type="button" class="flashcard" id="flashcard" aria-label="Flashcard. Select to flip.">
+      <div class="inner">
+        <div class="face front"><span class="tag" id="card-topic-front"></span><span id="card-question"></span></div>
+        <div class="face back"><span class="tag">Answer</span><span id="card-answer"></span></div>
+      </div>
+    </button>
+
+    <div class="btn-row">
+      <button type="button" class="btn secondary" id="prev-card">Previous</button>
+      <button type="button" class="btn" id="flip-card">Flip card</button>
+      <button type="button" class="btn secondary" id="next-card">Next</button>
+    </div>
+    <p class="hint">Keyboard: Space flips the card, ← and → move between cards.</p>
+  </div>
+</main>
+<script src="assets/site.js"></script>
+<script src="assets/flashcards.js"></script>
+</body>
+</html>

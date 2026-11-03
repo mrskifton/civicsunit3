@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>CSV to JSON converter · Constitution Test Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  .drop {
+    display: block; position: relative;
+    border: 3px dashed var(--line); border-radius: var(--radius); background: var(--paper);
+    padding: 2rem 1.25rem; text-align: center; cursor: pointer;
+  }
+  .drop:focus-within { outline: 3px solid var(--gold); outline-offset: 2px; }
+  .drop.over { border-color: var(--navy); background: #e8eef9; }
+  .drop strong { font-family: var(--font-head); font-size: 1.3rem; color: var(--navy); display: block; margin-bottom: 0.3rem; }
+  .file-report { margin-top: 0.9rem; }
+  .file-report h4 { margin: 0; }
+  .file-report ul { margin: 0.4rem 0 0; padding-left: 1.2rem; }
+  table.summary { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+  table.summary th, table.summary td { text-align: left; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--line); }
+  table.summary th { font-weight: 600; color: var(--muted); font-size: 0.9rem; }
+  .table-wrap { overflow-x: auto; }
+  code { background: var(--wash); padding: 0.1em 0.35em; border-radius: 4px; font-size: 0.92em; }
+  ol.steps li { margin-bottom: 0.4rem; }
+</style>
+</head>
+<body>
+<main>
+  <div class="page-head">
+    <h2>CSV to JSON converter</h2>
+    <p>Teacher tool. Turn your edited CSV files into the <code>data.json</code> file the site reads.</p>
+  </div>
+
+  <div class="panel">
+    <h3>How to update the site</h3>
+    <ol class="steps">
+      <li>Edit any of the CSV files in Excel or Google Sheets and save (or download) them as <strong>CSV</strong>.</li>
+      <li>Drop the files you changed into the box below. You don't need to upload all of them.</li>
+      <li>Fix anything listed under “Needs fixing,” then upload the corrected file again.</li>
+      <li>Select <strong>Download data.json</strong> and replace the old file in your site's <code>data</code> folder.</li>
+    </ol>
+    <p id="base-status" class="callout info" style="margin-top:1rem">Looking for the current data.json…</p>
+  </div>
+
+  <div class="panel">
+    <label class="drop" id="drop">
+      <strong>Drop CSV files here</strong>
+      <span>or select to choose files. You can also add a data.json to start from.</span>
+      <input type="file" id="file-input" accept=".csv,.json,text/csv,application/json" multiple class="visually-hidden">
+    </label>
+    <div id="reports"></div>
+  </div>
+
+  <div class="panel hidden" id="result-panel">
+    <h3>What the new data.json will contain</h3>
+    <div class="table-wrap">
+      <table class="summary">
+        <thead><tr><th>Section</th><th>Items</th><th>Comes from</th></tr></thead>
+        <tbody id="summary-body"></tbody>
+      </table>
+    </div>
+    <div class="btn-row" style="justify-content:flex-start">
+      <button type="button" class="btn" id="download-btn" disabled>Download data.json</button>
+      <button type="button" class="btn secondary" id="clear-btn">Start over</button>
+    </div>
+    <p id="download-note" style="margin-top:0.75rem; color: var(--muted)"></p>
+  </div>
+</main>
+<script src="assets/site.js"></script>
+<script src="assets/converter-core.js"></script>
+<script>
+(function () {
+  const C = window.Converter;
+  let base = null, baseSource = "";
+  let csvFiles = [];       // { name, text }
+  let lastResult = null;
+
+  const baseStatus = document.getElementById("base-status");
+
+  // Try to load the site's current data.json so unchanged sections are kept
+  fetch("data/data.json", { cache: "no-cache" })
+    .then(r => r.ok ? r.json() : Promise.reject())
+    .then(j => { base = j; baseSource = "current data.json"; setBaseMessage(); })
+    .catch(() => {
+      baseStatus.className = "callout warn";
+      baseStatus.textContent = "Couldn't find the current data.json, so upload all five CSV files (or add your current data.json along with the CSVs you changed).";
+    });
+
+  function setBaseMessage() {
+    baseStatus.className = "callout good";
+    baseStatus.textContent = `Starting from your ${baseSource}. Any section you don't upload a CSV for stays exactly as it is.`;
+  }
+
+  async function addFiles(fileList) {
+    for (const f of fileList) {
+      const text = await f.text();
+      if (f.name.toLowerCase().endsWith(".json")) {
+        try { base = JSON.parse(text); baseSource = f.name; setBaseMessage(); }
+        catch { alert(f.name + " isn't valid JSON."); }
+      } else {
+        csvFiles = csvFiles.filter(x => x.name !== f.name);   // re-uploading a file replaces it
+        csvFiles.push({ name: f.name, text });
+      }
+    }
+    run();
+  }
+
+  function run() {
+    const reports = document.getElementById("reports");
+    reports.innerHTML = "";
+    if (!csvFiles.length && !base) return;
+
+    lastResult = C.build(csvFiles, base);
+    lastResult.report.forEach(r => {
+      const div = document.createElement("div");
+      const bad = r.errors.length > 0;
+      div.className = "callout file-report " + (bad ? "bad" : "good");
+      const label = r.type ? C.TYPE_INFO[r.type].label : "Unknown file";
+      div.innerHTML = `<h4></h4><p style="margin:0.2rem 0 0"></p>`;
+      div.querySelector("h4").textContent = `${bad ? "Needs fixing" : "Looks good"}: ${r.name}`;
+      div.querySelector("p").textContent = `${label}, ${r.count} ${r.count === 1 ? "item" : "items"} ready`;
+      if (r.errors.length || r.warnings.length) {
+        const ul = document.createElement("ul");
+        r.errors.forEach(e => {
+          const li = document.createElement("li");
+          li.textContent = (e.row ? `Row ${e.row}: ` : "") + e.message;
+          ul.appendChild(li);
+        });
+        r.warnings.forEach(w => {
+          const li = document.createElement("li");
+          li.textContent = "Note: " + w;
+          ul.appendChild(li);
+        });
+        div.appendChild(ul);
+      }
+      reports.appendChild(div);
+    });
+
+    // Summary table
+    const uploaded = {};
+    lastResult.report.forEach(r => { if (r.type) uploaded[r.type] = r.name; });
+    const body = document.getElementById("summary-body");
+    body.innerHTML = "";
+    C.ORDER.forEach(type => {
+      const tr = document.createElement("tr");
+      const items = lastResult.data[type];
+      const src = uploaded[type] ? uploaded[type] : items ? `kept from ${baseSource}` : "missing";
+      [C.TYPE_INFO[type].label, items ? items.length : "–", src].forEach(t => {
+        const td = document.createElement("td"); td.textContent = t; tr.appendChild(td);
+      });
+      body.appendChild(tr);
+    });
+    document.getElementById("result-panel").classList.remove("hidden");
+
+    const btn = document.getElementById("download-btn");
+    const note = document.getElementById("download-note");
+    btn.disabled = !lastResult.ok;
+    if (lastResult.missing.length) {
+      note.textContent = "Still needed: " + lastResult.missing.map(t => C.TYPE_INFO[t].file).join(", ");
+    } else if (!lastResult.ok) {
+      note.textContent = "Fix the problems above, then upload the corrected file again.";
+    } else {
+      note.textContent = "Ready. Save it as data.json in your site's data folder, replacing the old one.";
+    }
+  }
+
+  document.getElementById("download-btn").addEventListener("click", () => {
+    if (!lastResult || !lastResult.ok) return;
+    const blob = new Blob([JSON.stringify(lastResult.data, null, 2)], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "data.json";
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  });
+
+  document.getElementById("clear-btn").addEventListener("click", () => {
+    csvFiles = []; lastResult = null;
+    document.getElementById("reports").innerHTML = "";
+    document.getElementById("result-panel").classList.add("hidden");
+  });
+
+  const drop = document.getElementById("drop");
+  const input = document.getElementById("file-input");
+  input.addEventListener("change", () => { addFiles(input.files); input.value = ""; });
+  ["dragenter", "dragover"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.add("over"); }));
+  ["dragleave", "drop"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.remove("over"); }));
+  drop.addEventListener("drop", e => addFiles(e.dataTransfer.files));
+})();
+</script>
+</body>
+</html>

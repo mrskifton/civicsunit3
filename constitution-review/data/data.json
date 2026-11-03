@@ -1,0 +1,893 @@
+{
+  "generated": "2026-11-03T16:08:22.949Z",
+  "topics": [
+    {
+      "code": "articles",
+      "name": "Articles of Confederation"
+    },
+    {
+      "code": "convention",
+      "name": "Constitutional Convention"
+    },
+    {
+      "code": "preamble",
+      "name": "Preamble"
+    },
+    {
+      "code": "principles",
+      "name": "Constitutional Principles"
+    },
+    {
+      "code": "billrights",
+      "name": "Bill of Rights"
+    }
+  ],
+  "flashcards": [
+    {
+      "topic": "articles",
+      "question": "What was the first constitution of the United States?",
+      "answer": "The Articles of Confederation"
+    },
+    {
+      "topic": "articles",
+      "question": "What was a major weakness of the Articles of Confederation?",
+      "answer": "The federal government had no power to tax or regulate trade"
+    },
+    {
+      "topic": "articles",
+      "question": "Why couldn't the federal government under the Articles collect taxes?",
+      "answer": "It could only request money from states, not require it"
+    },
+    {
+      "topic": "articles",
+      "question": "What happened when states disagreed under the Articles?",
+      "answer": "There was no strong central authority to resolve disputes"
+    },
+    {
+      "topic": "convention",
+      "question": "Where was the Constitutional Convention held?",
+      "answer": "Philadelphia, Pennsylvania"
+    },
+    {
+      "topic": "convention",
+      "question": "What did the Virginia Plan propose?",
+      "answer": "A strong national government with representation based on population"
+    },
+    {
+      "topic": "convention",
+      "question": "What did the New Jersey Plan propose?",
+      "answer": "Equal representation for all states regardless of size"
+    },
+    {
+      "topic": "convention",
+      "question": "What was the Three-Fifths Compromise?",
+      "answer": "Slaves would count as 3/5 of a person for representation and taxation"
+    },
+    {
+      "topic": "convention",
+      "question": "What was the Great Compromise?",
+      "answer": "Created a bicameral legislature with both proportional and equal representation"
+    },
+    {
+      "topic": "convention",
+      "question": "What is the job of the Legislative Branch?",
+      "answer": "To make laws (Congress - House of Representatives and Senate)"
+    },
+    {
+      "topic": "convention",
+      "question": "What is the job of the Executive Branch?",
+      "answer": "To enforce laws (President and executive departments)"
+    },
+    {
+      "topic": "convention",
+      "question": "What is the job of the Judicial Branch?",
+      "answer": "To interpret laws (Supreme Court and federal courts)"
+    },
+    {
+      "topic": "convention",
+      "question": "How is representation determined in the Senate?",
+      "answer": "Equal representation - each state gets 2 senators regardless of population"
+    },
+    {
+      "topic": "convention",
+      "question": "How is representation determined in the House of Representatives?",
+      "answer": "Based on population - states with more people get more representatives"
+    },
+    {
+      "topic": "preamble",
+      "question": "What does 'form a more perfect union' mean?",
+      "answer": "Create a stronger, better united country than under the Articles of Confederation"
+    },
+    {
+      "topic": "preamble",
+      "question": "What does 'establish justice' mean?",
+      "answer": "Create a fair legal system and courts to ensure equal treatment under law"
+    },
+    {
+      "topic": "preamble",
+      "question": "What does 'ensure domestic tranquility' mean?",
+      "answer": "Keep peace within the country and prevent internal conflicts like rebellions"
+    },
+    {
+      "topic": "preamble",
+      "question": "What does 'provide for the common defense' mean?",
+      "answer": "Protect the nation from foreign threats and maintain military forces"
+    },
+    {
+      "topic": "preamble",
+      "question": "What does 'promote the general welfare' mean?",
+      "answer": "Work for the well-being and prosperity of all citizens"
+    },
+    {
+      "topic": "preamble",
+      "question": "What does 'secure the blessings of liberty' mean?",
+      "answer": "Protect freedom and rights for current and future generations"
+    },
+    {
+      "topic": "principles",
+      "question": "What is separation of powers?",
+      "answer": "Dividing government into three branches: legislative, executive, and judicial"
+    },
+    {
+      "topic": "principles",
+      "question": "What are checks and balances?",
+      "answer": "Each branch of government can limit the power of the other branches"
+    },
+    {
+      "topic": "principles",
+      "question": "What is federalism?",
+      "answer": "Power is shared between federal and state governments"
+    },
+    {
+      "topic": "principles",
+      "question": "What is popular sovereignty?",
+      "answer": "Government gets its power from the people"
+    },
+    {
+      "topic": "principles",
+      "question": "What is limited government?",
+      "answer": "Government power is restricted by law and the Constitution"
+    },
+    {
+      "topic": "principles",
+      "question": "What is rule of law?",
+      "answer": "Everyone, including government officials, must follow the law"
+    },
+    {
+      "topic": "principles",
+      "question": "What is republicanism?",
+      "answer": "People elect representatives to make decisions for them"
+    },
+    {
+      "topic": "principles",
+      "question": "What are individual rights?",
+      "answer": "Personal freedoms and protections that belong to each person and cannot be taken away by government"
+    },
+    {
+      "topic": "billrights",
+      "question": "What does the 1st Amendment protect?",
+      "answer": "Freedom of speech, religion, press, assembly, and petition"
+    },
+    {
+      "topic": "billrights",
+      "question": "What does the 2nd Amendment protect?",
+      "answer": "The right to bear arms (keep and carry weapons)"
+    },
+    {
+      "topic": "billrights",
+      "question": "What does the 3rd Amendment protect?",
+      "answer": "Protection against being forced to house soldiers in your home during peacetime"
+    },
+    {
+      "topic": "billrights",
+      "question": "What does the 4th Amendment protect?",
+      "answer": "Protection against unreasonable searches and seizures by government"
+    },
+    {
+      "topic": "billrights",
+      "question": "What does the 5th Amendment protect?",
+      "answer": "Right to due process, protection against self-incrimination, and double jeopardy"
+    },
+    {
+      "topic": "billrights",
+      "question": "What does the 6th Amendment protect?",
+      "answer": "Right to a speedy and public trial, and to have a lawyer"
+    },
+    {
+      "topic": "billrights",
+      "question": "What does the 7th Amendment protect?",
+      "answer": "Right to a jury trial in civil cases involving more than $20"
+    },
+    {
+      "topic": "billrights",
+      "question": "What does the 8th Amendment protect?",
+      "answer": "Protection against excessive bail, fines, and cruel and unusual punishment"
+    },
+    {
+      "topic": "billrights",
+      "question": "What does the 9th Amendment protect?",
+      "answer": "People have other rights not specifically listed in the Constitution"
+    },
+    {
+      "topic": "billrights",
+      "question": "What does the 10th Amendment protect?",
+      "answer": "Powers not given to federal government belong to states or the people"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "I do not support a strong central government. I am a...",
+      "options": [
+        "Federalist",
+        "Anti-Federalist",
+        "Nationalist",
+        "Loyalist"
+      ],
+      "correct": 1,
+      "topic": "convention"
+    },
+    {
+      "question": "Which weakness of the Articles of Confederation led to Shays' Rebellion?",
+      "options": [
+        "No power to tax",
+        "No executive branch",
+        "No national court system",
+        "All of the above"
+      ],
+      "correct": 3,
+      "topic": "articles"
+    },
+    {
+      "question": "The Great Compromise resolved the conflict between which two plans?",
+      "options": [
+        "Virginia and New Jersey Plans",
+        "Hamilton and Jefferson Plans",
+        "Northern and Southern Plans",
+        "Federal and State Plans"
+      ],
+      "correct": 0,
+      "topic": "convention"
+    },
+    {
+      "question": "Which Preamble goal is demonstrated by creating the Supreme Court?",
+      "options": [
+        "Establish justice",
+        "Ensure domestic tranquility",
+        "Provide common defense",
+        "Promote general welfare"
+      ],
+      "correct": 0,
+      "topic": "preamble"
+    },
+    {
+      "question": "When the President vetoes a law, which principle is being demonstrated?",
+      "options": [
+        "Separation of powers",
+        "Checks and balances",
+        "Federalism",
+        "Popular sovereignty"
+      ],
+      "correct": 1,
+      "topic": "principles"
+    },
+    {
+      "question": "A state law conflicts with a federal law. Which principle determines the outcome?",
+      "options": [
+        "Federalism",
+        "Supremacy Clause",
+        "States' rights",
+        "Popular sovereignty"
+      ],
+      "correct": 1,
+      "topic": "principles"
+    },
+    {
+      "question": "The 1st Amendment protects all of the following EXCEPT:",
+      "options": [
+        "Freedom of speech",
+        "Freedom of religion",
+        "Right to bear arms",
+        "Freedom of press"
+      ],
+      "correct": 2,
+      "topic": "billrights"
+    },
+    {
+      "question": "Under the Articles of Confederation, how many states needed to agree to pass a law?",
+      "options": [
+        "7 out of 13",
+        "9 out of 13",
+        "11 out of 13",
+        "All 13"
+      ],
+      "correct": 1,
+      "topic": "articles"
+    },
+    {
+      "question": "Which principle means government power comes from the people?",
+      "options": [
+        "Limited government",
+        "Rule of law",
+        "Popular sovereignty",
+        "Republicanism"
+      ],
+      "correct": 2,
+      "topic": "principles"
+    },
+    {
+      "question": "The Three-Fifths Compromise was primarily about:",
+      "options": [
+        "Taxation",
+        "Representation",
+        "Both taxation and representation",
+        "Trade regulation"
+      ],
+      "correct": 2,
+      "topic": "convention"
+    }
+  ],
+  "gameScenarios": [
+    {
+      "amendment": "1st",
+      "scenario": "A high school principal bans students from wearing t-shirts with political messages during school hours, claiming they are disruptive to the learning environment.",
+      "explanation": "This involves the 1st Amendment. In Tinker v. Des Moines (1969), the Supreme Court ruled that students don't lose their free speech rights at school unless the speech causes substantial disruption."
+    },
+    {
+      "amendment": "1st",
+      "scenario": "A city council passes a law requiring all residents to attend and financially support the local Methodist church.",
+      "explanation": "This violates the 1st Amendment's Establishment Clause, which prohibits government from establishing religion or forcing people to support religious institutions."
+    },
+    {
+      "amendment": "1st",
+      "scenario": "A newspaper publishes an article criticizing the mayor's policies. The mayor threatens to shut down the newspaper.",
+      "explanation": "This involves the 1st Amendment's freedom of press. The government cannot shut down newspapers for criticizing public officials."
+    },
+    {
+      "amendment": "1st",
+      "scenario": "Citizens organize a peaceful protest march through downtown to oppose a new tax policy, obtaining proper permits from the city.",
+      "explanation": "This involves the 1st Amendment rights to free speech and peaceful assembly. Citizens have the right to peacefully protest government policies."
+    },
+    {
+      "amendment": "1st",
+      "scenario": "A town passes a law banning all religious services in public buildings, including schools and community centers.",
+      "explanation": "This involves the 1st Amendment's Free Exercise Clause, which protects the right to practice religion freely."
+    },
+    {
+      "amendment": "1st",
+      "scenario": "A student is suspended for writing a petition asking the school board to change the lunch menu and collecting signatures from classmates.",
+      "explanation": "This involves the 1st Amendment's right to petition the government for redress of grievances, which includes school boards."
+    },
+    {
+      "amendment": "1st",
+      "scenario": "The government creates a list of 'approved topics' that newspapers are allowed to write about, banning coverage of certain political issues.",
+      "explanation": "This violates the 1st Amendment's freedom of press. The government cannot engage in prior restraint or censorship of the press."
+    },
+    {
+      "amendment": "1st",
+      "scenario": "A public library removes all books about certain religions from its shelves because some community members complained.",
+      "explanation": "This involves the 1st Amendment. Public institutions cannot discriminate against religious viewpoints in their collections."
+    },
+    {
+      "amendment": "2nd",
+      "scenario": "A person legally purchases a hunting rifle for sport and keeps it locked in their home gun safe.",
+      "explanation": "This involves the 2nd Amendment right to bear arms. Law-abiding citizens have the right to own firearms, especially for lawful purposes like hunting."
+    },
+    {
+      "amendment": "2nd",
+      "scenario": "A state passes a law completely banning all citizens from owning any type of firearm, including for hunting or self-defense.",
+      "explanation": "This would likely violate the 2nd Amendment right to bear arms, as established in DC v. Heller (2008)."
+    },
+    {
+      "amendment": "2nd",
+      "scenario": "A homeowner keeps a legally purchased handgun in their house for protection after several break-ins in the neighborhood.",
+      "explanation": "This involves the 2nd Amendment right to bear arms for self-defense in the home, as protected by DC v. Heller (2008)."
+    },
+    {
+      "amendment": "2nd",
+      "scenario": "A gun store owner sells firearms only to customers who pass background checks and meet all federal and state requirements.",
+      "explanation": "This involves the 2nd Amendment. Legal gun sales with proper background checks are protected constitutional activity."
+    },
+    {
+      "amendment": "3rd",
+      "scenario": "During wartime, the government forces homeowners to house soldiers in their homes without the owners' consent or compensation.",
+      "explanation": "This involves the 3rd Amendment, which prohibits the government from forcing citizens to quarter soldiers in their homes during peacetime, and requires proper legal procedures during wartime."
+    },
+    {
+      "amendment": "3rd",
+      "scenario": "During peacetime, the military demands that a family provide free housing for soldiers in their private home.",
+      "explanation": "This violates the 3rd Amendment, which specifically prohibits quartering soldiers in private homes during peacetime without the owner's consent."
+    },
+    {
+      "amendment": "3rd",
+      "scenario": "The National Guard asks to rent space in a private home during a natural disaster, offering to pay fair market rent.",
+      "explanation": "This involves the 3rd Amendment, but would likely be constitutional since it involves voluntary agreement and compensation, not forced quartering."
+    },
+    {
+      "amendment": "3rd",
+      "scenario": "A city requires homeowners to provide free housing for police officers as part of a community policing program.",
+      "explanation": "This involves 3rd Amendment principles about forced quartering of government agents in private homes."
+    },
+    {
+      "amendment": "4th",
+      "scenario": "Police officers search a student's backpack during a routine locker check without any suspicion of wrongdoing or a warrant.",
+      "explanation": "This involves the 4th Amendment protection against unreasonable searches. Even in schools, searches generally require reasonable suspicion of wrongdoing."
+    },
+    {
+      "amendment": "4th",
+      "scenario": "Police obtain a warrant based on probable cause and search a suspect's home for evidence of a crime.",
+      "explanation": "This involves the 4th Amendment. Searches conducted with proper warrants based on probable cause are constitutional."
+    },
+    {
+      "amendment": "4th",
+      "scenario": "TSA agents at an airport search passengers' bags and require them to walk through metal detectors before boarding flights.",
+      "explanation": "This involves the 4th Amendment, but airport security searches are generally considered reasonable due to compelling government interest in flight safety."
+    },
+    {
+      "amendment": "4th",
+      "scenario": "Police stop and search every car passing through a neighborhood without any specific reason or warrant.",
+      "explanation": "This likely violates the 4th Amendment protection against unreasonable searches and seizures without probable cause or reasonable suspicion."
+    },
+    {
+      "amendment": "4th",
+      "scenario": "A school principal searches a student's locker after receiving a tip that the student is hiding stolen property there.",
+      "explanation": "This involves the 4th Amendment. School searches require reasonable suspicion, which appears to exist based on the tip."
+    },
+    {
+      "amendment": "4th",
+      "scenario": "Police use a drug-sniffing dog to search around the outside of a car during a routine traffic stop without the driver's permission.",
+      "explanation": "This involves the 4th Amendment. The Supreme Court has ruled on the constitutionality of drug dog searches in various contexts."
+    },
+    {
+      "amendment": "5th",
+      "scenario": "A person is arrested and chooses to remain silent when questioned by police, refusing to answer any questions about the alleged crime.",
+      "explanation": "This involves the 5th Amendment protection against self-incrimination. People have the right to remain silent and cannot be forced to testify against themselves."
+    },
+    {
+      "amendment": "5th",
+      "scenario": "A person is tried for murder, found not guilty, but then the prosecutor decides to try them again for the same murder with new evidence.",
+      "explanation": "This violates the 5th Amendment protection against double jeopardy. A person cannot be tried twice for the same crime after being acquitted."
+    },
+    {
+      "amendment": "5th",
+      "scenario": "The government wants to build a highway through a residential neighborhood and offers to buy all the houses at fair market value.",
+      "explanation": "This involves the 5th Amendment's eminent domain clause, which allows government to take private property for public use with just compensation."
+    },
+    {
+      "amendment": "5th",
+      "scenario": "A person is arrested but not read their Miranda rights before being questioned by police.",
+      "explanation": "This involves the 5th Amendment right against self-incrimination. Miranda rights inform people of their constitutional protections."
+    },
+    {
+      "amendment": "5th",
+      "scenario": "A defendant in a criminal trial is forced to testify against themselves and admit guilt.",
+      "explanation": "This violates the 5th Amendment protection against self-incrimination. Defendants cannot be compelled to testify against themselves."
+    },
+    {
+      "amendment": "5th",
+      "scenario": "The city takes a person's house to build a public school, paying the owner the appraised value of the property.",
+      "explanation": "This involves the 5th Amendment's eminent domain power, which allows government to take private property for public use with just compensation."
+    },
+    {
+      "amendment": "6th",
+      "scenario": "A person accused of robbery is held in jail for two years without being given a trial, even though they requested one immediately.",
+      "explanation": "This violates the 6th Amendment right to a speedy trial. The government cannot indefinitely delay trials for people accused of crimes."
+    },
+    {
+      "amendment": "6th",
+      "scenario": "A person accused of a serious felony cannot afford a lawyer, so the court appoints a public defender to represent them.",
+      "explanation": "This involves the 6th Amendment right to counsel. In serious criminal cases, the government must provide a lawyer if the defendant cannot afford one."
+    },
+    {
+      "amendment": "6th",
+      "scenario": "A defendant in a criminal trial demands to know the specific charges against them and to face their accusers in court.",
+      "explanation": "This involves the 6th Amendment rights to be informed of charges and to confront witnesses. These are fundamental rights in criminal proceedings."
+    },
+    {
+      "amendment": "6th",
+      "scenario": "A person is tried for a crime in a secret proceeding with no public access and no jury.",
+      "explanation": "This violates the 6th Amendment right to a public trial by jury. Criminal defendants have the right to public proceedings and jury trials."
+    },
+    {
+      "amendment": "6th",
+      "scenario": "A criminal defendant wants to call witnesses to testify on their behalf, but the judge refuses to allow it.",
+      "explanation": "This involves the 6th Amendment right to compulsory process - the right to call witnesses in one's defense."
+    },
+    {
+      "amendment": "6th",
+      "scenario": "A person is charged with a crime but the prosecutor refuses to tell them what specific law they allegedly broke.",
+      "explanation": "This violates the 6th Amendment right to be informed of the nature and cause of the accusation."
+    },
+    {
+      "amendment": "8th",
+      "scenario": "A judge sets bail at $50,000 for someone accused of shoplifting a $20 item, with no prior criminal record.",
+      "explanation": "This likely violates the 8th Amendment prohibition against excessive bail. The bail amount should be reasonable in relation to the severity of the crime and flight risk."
+    },
+    {
+      "amendment": "8th",
+      "scenario": "A person convicted of theft is sentenced to have their hand cut off as punishment.",
+      "explanation": "This violates the 8th Amendment prohibition against cruel and unusual punishment. Physical mutilation is considered cruel and unusual."
+    },
+    {
+      "amendment": "8th",
+      "scenario": "A person convicted of a minor traffic violation is fined $100,000.",
+      "explanation": "This likely violates the 8th Amendment prohibition against excessive fines. The fine should be proportional to the offense."
+    },
+    {
+      "amendment": "8th",
+      "scenario": "A prison keeps inmates in solitary confinement for years without any human contact or mental health treatment.",
+      "explanation": "This involves the 8th Amendment prohibition against cruel and unusual punishment. Extended solitary confinement may constitute cruel and unusual punishment."
+    },
+    {
+      "amendment": "8th",
+      "scenario": "A judge sentences someone convicted of murder to life in prison without the possibility of parole.",
+      "explanation": "This involves the 8th Amendment, but life sentences for serious crimes like murder are generally not considered cruel and unusual punishment."
+    },
+    {
+      "amendment": "8th",
+      "scenario": "A person arrested for a minor misdemeanor has their bail set at $500.",
+      "explanation": "This involves the 8th Amendment's excessive bail clause, but $500 bail for a misdemeanor would likely be considered reasonable."
+    }
+  ],
+  "diagnostic": [
+    {
+      "topic": "articles",
+      "difficulty": "basic",
+      "question": "What was the first constitution of the United States?",
+      "options": [
+        "The Constitution",
+        "The Articles of Confederation",
+        "The Declaration of Independence",
+        "The Bill of Rights"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "articles",
+      "difficulty": "basic",
+      "question": "What was the biggest weakness of the Articles of Confederation?",
+      "options": [
+        "No president",
+        "No power to tax",
+        "No Bill of Rights",
+        "Too many states"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "articles",
+      "difficulty": "intermediate",
+      "question": "Under the Articles, the federal government could NOT:",
+      "options": [
+        "Declare war",
+        "Make treaties",
+        "Regulate interstate commerce",
+        "Coin money"
+      ],
+      "correct": 2
+    },
+    {
+      "topic": "articles",
+      "difficulty": "intermediate",
+      "question": "How many states needed to agree to amend the Articles of Confederation?",
+      "options": [
+        "7 out of 13",
+        "9 out of 13",
+        "All 13 states",
+        "A simple majority"
+      ],
+      "correct": 2
+    },
+    {
+      "topic": "articles",
+      "difficulty": "advanced",
+      "question": "Shays' Rebellion demonstrated which weakness of the Articles?",
+      "options": [
+        "Inability to maintain domestic order",
+        "Lack of foreign policy power",
+        "No executive branch",
+        "Weak judicial system"
+      ],
+      "correct": 0
+    },
+    {
+      "topic": "articles",
+      "difficulty": "advanced",
+      "question": "The Articles created a 'league of friendship' rather than a true nation because:",
+      "options": [
+        "States retained most sovereignty",
+        "There was no common currency",
+        "Trade was unregulated",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "topic": "convention",
+      "difficulty": "basic",
+      "question": "The Constitutional Convention was held in:",
+      "options": [
+        "Boston",
+        "New York",
+        "Philadelphia",
+        "Washington D.C."
+      ],
+      "correct": 2
+    },
+    {
+      "topic": "convention",
+      "difficulty": "basic",
+      "question": "The Great Compromise created:",
+      "options": [
+        "A unicameral legislature",
+        "A bicameral legislature",
+        "No legislature",
+        "Three branches of government"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "convention",
+      "difficulty": "intermediate",
+      "question": "Large states supported the Virginia Plan because it:",
+      "options": [
+        "Gave equal representation",
+        "Based representation on population",
+        "Eliminated the Senate",
+        "Weakened the federal government"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "convention",
+      "difficulty": "intermediate",
+      "question": "The Three-Fifths Compromise dealt with:",
+      "options": [
+        "Taxation only",
+        "Representation only",
+        "Both taxation and representation",
+        "Trade regulation"
+      ],
+      "correct": 2
+    },
+    {
+      "topic": "convention",
+      "difficulty": "advanced",
+      "question": "I believe in a strong national government and support ratification. I am a:",
+      "options": [
+        "Federalist",
+        "Anti-Federalist",
+        "Democratic-Republican",
+        "Whig"
+      ],
+      "correct": 0
+    },
+    {
+      "topic": "convention",
+      "difficulty": "advanced",
+      "question": "The Connecticut Compromise resolved the conflict between:",
+      "options": [
+        "North and South over slavery",
+        "Large and small states over representation",
+        "Federalists and Anti-Federalists",
+        "Executive and legislative power"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "preamble",
+      "difficulty": "basic",
+      "question": "How many goals are listed in the Preamble?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2
+    },
+    {
+      "topic": "preamble",
+      "difficulty": "basic",
+      "question": "The Preamble begins with which famous phrase?",
+      "options": [
+        "We hold these truths",
+        "When in the course",
+        "We the People",
+        "Four score and seven"
+      ],
+      "correct": 2
+    },
+    {
+      "topic": "preamble",
+      "difficulty": "intermediate",
+      "question": "'Establish Justice' in the Preamble refers to:",
+      "options": [
+        "Creating courts",
+        "Making laws",
+        "Enforcing laws",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "topic": "preamble",
+      "difficulty": "intermediate",
+      "question": "'Promote the general welfare' means government should:",
+      "options": [
+        "Only help the wealthy",
+        "Help all citizens prosper",
+        "Ignore citizen needs",
+        "Focus only on defense"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "preamble",
+      "difficulty": "advanced",
+      "question": "Which Preamble goal is most directly related to preventing another Shays' Rebellion?",
+      "options": [
+        "Establish justice",
+        "Ensure domestic tranquility",
+        "Provide for common defense",
+        "Promote general welfare"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "preamble",
+      "difficulty": "advanced",
+      "question": "'Secure the blessings of liberty to ourselves and our posterity' shows the founders wanted to:",
+      "options": [
+        "Protect rights for future generations",
+        "Limit government power",
+        "Establish democracy",
+        "Create a monarchy"
+      ],
+      "correct": 0
+    },
+    {
+      "topic": "principles",
+      "difficulty": "basic",
+      "question": "Separation of powers divides government into how many branches?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "principles",
+      "difficulty": "basic",
+      "question": "Federalism means power is shared between:",
+      "options": [
+        "President and Congress",
+        "Federal and state governments",
+        "Courts and legislature",
+        "People and government"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "principles",
+      "difficulty": "intermediate",
+      "question": "When Congress overrides a presidential veto, this shows:",
+      "options": [
+        "Separation of powers",
+        "Checks and balances",
+        "Federalism",
+        "Popular sovereignty"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "principles",
+      "difficulty": "intermediate",
+      "question": "Popular sovereignty means:",
+      "options": [
+        "The president has ultimate power",
+        "Government power comes from the people",
+        "States are more powerful than federal government",
+        "The Constitution is supreme law"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "principles",
+      "difficulty": "advanced",
+      "question": "A state law conflicts with federal law. Which principle determines that federal law wins?",
+      "options": [
+        "Federalism",
+        "Supremacy Clause",
+        "States' rights",
+        "Popular sovereignty"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "principles",
+      "difficulty": "advanced",
+      "question": "The principle that even government officials must follow the law is called:",
+      "options": [
+        "Limited government",
+        "Rule of law",
+        "Separation of powers",
+        "Individual rights"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "billrights",
+      "difficulty": "basic",
+      "question": "The Bill of Rights consists of the first:",
+      "options": [
+        "5 amendments",
+        "10 amendments",
+        "15 amendments",
+        "20 amendments"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "billrights",
+      "difficulty": "basic",
+      "question": "The Bill of Rights was added to protect:",
+      "options": [
+        "State governments",
+        "Individual rights",
+        "Federal power",
+        "International trade"
+      ],
+      "correct": 1
+    },
+    {
+      "topic": "billrights",
+      "difficulty": "intermediate",
+      "question": "The 1st Amendment does NOT protect:",
+      "options": [
+        "Freedom of speech",
+        "Freedom of religion",
+        "Right to privacy",
+        "Freedom of press"
+      ],
+      "correct": 2
+    },
+    {
+      "topic": "billrights",
+      "difficulty": "intermediate",
+      "question": "Which amendment protects against unreasonable searches?",
+      "options": [
+        "1st Amendment",
+        "2nd Amendment",
+        "4th Amendment",
+        "5th Amendment"
+      ],
+      "correct": 2
+    },
+    {
+      "topic": "billrights",
+      "difficulty": "advanced",
+      "question": "A student wants to start a political club at school but the principal says no. Which amendment protects the student?",
+      "options": [
+        "1st Amendment",
+        "4th Amendment",
+        "10th Amendment",
+        "14th Amendment"
+      ],
+      "correct": 0
+    },
+    {
+      "topic": "billrights",
+      "difficulty": "advanced",
+      "question": "The Bill of Rights originally applied only to:",
+      "options": [
+        "State governments",
+        "Federal government",
+        "Local governments",
+        "All levels of government"
+      ],
+      "correct": 1
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Practice Quiz · Constitution Test Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main>
+  <div class="page-head">
+    <h2>Practice Quiz</h2>
+  </div>
+
+  <div class="panel">
+    <div id="quiz-start" class="center">
+      <p id="quiz-intro">Test your knowledge with questions covering all Constitution topics.</p>
+      <button type="button" class="btn big" id="start-btn">Start quiz</button>
+    </div>
+
+    <div id="quiz-content" class="hidden">
+      <div class="meta-row">
+        <span id="quiz-progress">Question 1</span>
+        <span id="quiz-score">Score: 0/0</span>
+      </div>
+      <div class="progress"><div id="quiz-bar"></div></div>
+      <p class="question" id="quiz-question"></p>
+      <div class="choices" id="quiz-options"></div>
+      <div class="btn-row spread">
+        <button type="button" class="btn secondary" id="quiz-prev">Previous</button>
+        <button type="button" class="btn" id="quiz-next" disabled>Next</button>
+      </div>
+    </div>
+
+    <div id="quiz-results" class="hidden center">
+      <h3>Quiz complete!</h3>
+      <p class="score-big" id="final-score"></p>
+      <p id="score-feedback"></p>
+      <div class="btn-row">
+        <button type="button" class="btn" id="retake-btn">Retake quiz</button>
+        <a class="btn secondary" href="index.html">Back to home</a>
+      </div>
+    </div>
+  </div>
+</main>
+<script src="assets/site.js"></script>
+<script src="assets/quiz.js"></script>
+</body>
+</html>

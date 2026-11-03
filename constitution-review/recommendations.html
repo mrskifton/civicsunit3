@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study Recommendations · Constitution Test Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main>
+  <div class="page-head">
+    <h2>Study Recommendations</h2>
+  </div>
+
+  <div class="panel">
+    <div id="diag-start" class="center">
+      <p>Answer questions until the system identifies your strengths and areas for improvement. The questions adapt to how you're doing: get them right and they get harder.</p>
+      <button type="button" class="btn big" id="start-btn">Start assessment</button>
+    </div>
+
+    <div id="diag-content" class="hidden">
+      <div class="meta-row">
+        <span id="diag-progress">Question 1</span>
+        <span id="diag-topic" style="font-weight:600; color: var(--navy)"></span>
+      </div>
+      <div class="progress"><div id="diag-bar" style="background: var(--brick)"></div></div>
+      <p class="question" id="diag-question"></p>
+      <div class="choices" id="diag-options"></div>
+      <div class="btn-row">
+        <button type="button" class="btn red" id="diag-next" disabled>Next question</button>
+      </div>
+    </div>
+
+    <div id="diag-results" class="hidden">
+      <h3 class="center">Your study recommendations</h3>
+      <div id="rec-content"></div>
+      <div class="btn-row">
+        <button type="button" class="btn red" id="retake-btn">Retake assessment</button>
+        <a class="btn secondary" href="index.html">Back to home</a>
+      </div>
+    </div>
+  </div>
+</main>
+<script src="assets/site.js"></script>
+<script src="assets/recommendations.js"></script>
+</body>
+</html>

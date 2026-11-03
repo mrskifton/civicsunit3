@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Constitutional Cases Game · Constitution Test Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main>
+  <div class="page-head">
+    <h2>Constitutional Cases Game</h2>
+  </div>
+
+  <div class="panel">
+    <div id="game-start" class="center">
+      <p>Apply your Bill of Rights knowledge to real-world scenarios. Read each scenario and pick the amendment that is most relevant.</p>
+      <div class="callout warn" style="text-align:left; max-width: 34rem; margin: 1rem auto 1.5rem;">
+        <h4>How to play</h4>
+        <ul class="rules" id="rules"></ul>
+      </div>
+      <button type="button" class="btn big" id="start-btn">Start game</button>
+    </div>
+
+    <div id="game-content" class="hidden">
+      <div class="game-stats">
+        <div style="display:flex; gap:2rem;">
+          <div class="stat"><div class="num" id="game-score">0</div><div class="lbl">Score</div></div>
+          <div class="stat"><div class="num" id="game-qnum">1</div><div class="lbl" id="game-qlabel">Question</div></div>
+        </div>
+        <div class="stat"><div class="lives" id="game-lives" aria-label="Lives"></div><div class="lbl">Lives</div></div>
+      </div>
+
+      <div class="scenario"><strong>Scenario:</strong> <span id="game-scenario"></span></div>
+
+      <p class="question" style="font-size:1.15rem">Which amendment is most relevant to this scenario?</p>
+      <div class="choices" id="game-options"></div>
+
+      <div class="btn-row">
+        <button type="button" class="btn" id="submit-btn" disabled>Submit answer</button>
+      </div>
+
+      <div id="game-feedback" class="callout hidden" aria-live="polite">
+        <h4 id="feedback-head"></h4>
+        <p id="feedback-correct"></p>
+        <p id="feedback-explain"></p>
+        <button type="button" class="btn" id="continue-btn">Continue</button>
+      </div>
+    </div>
+
+    <div id="game-end" class="hidden center">
+      <h3 id="end-title"></h3>
+      <p id="end-sub"></p>
+      <p>Final score</p>
+      <p class="score-big" id="end-score">0</p>
+      <p id="end-performance"></p>
+      <div class="btn-row">
+        <button type="button" class="btn" id="again-btn">Play again</button>
+        <a class="btn secondary" href="index.html">Back to home</a>
+      </div>
+    </div>
+  </div>
+</main>
+<script src="assets/site.js"></script>
+<script src="assets/game.js"></script>
+</body>
+</html>
