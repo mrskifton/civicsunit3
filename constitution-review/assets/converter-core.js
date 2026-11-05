@@ -131,8 +131,10 @@
         if (!rec.question) p.push("question is empty");
         const o = readOptions(rec, p);
         if (type === "quiz") {
-          if (rec.topic) checkTopic(rec, p);
-          item = o && { question: rec.question, options: o.options, correct: o.correct, topic: rec.topic || "" };
+          checkTopic(rec, p);
+          item = o && { topic: rec.topic, question: rec.question, options: o.options, correct: o.correct,
+                        explanation: rec.explanation || "" };
+          if (item && !item.explanation) warnings.push(`Row ${rec._row}: no explanation, so students will only see the correct answer.`);
         } else {
           checkTopic(rec, p);
           const d = (rec.difficulty || "").toLowerCase();
