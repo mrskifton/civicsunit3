@@ -26,6 +26,10 @@
     select.appendChild(opt);
   });
 
+  // Open a topic from a link like flashcards.html?topic=preamble
+  const wanted = new URLSearchParams(location.search).get("topic");
+  if (wanted && [...select.options].some(o => o.value === wanted)) select.value = wanted;
+
   const removedByDeck = {};   // deck name -> Set of removed cards
   let deckCards = [];         // every card in the current deck (in study order)
   let set = [];               // cards still in the deck
