@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05T15:01:54.045Z",
+  "generated": "2026-11-05T15:13:18.948Z",
   "topics": [
     {
       "code": "articles",
@@ -25,193 +25,263 @@
   "flashcards": [
     {
       "topic": "articles",
-      "question": "What was the first constitution of the United States?",
-      "answer": "The Articles of Confederation"
+      "term": "Articles of Confederation",
+      "definition": "The first government of the United States that created a weak central government and left most power with the states"
     },
     {
       "topic": "articles",
-      "question": "What was a major weakness of the Articles of Confederation?",
-      "answer": "The federal government had no power to tax or regulate trade"
+      "term": "Unicameral",
+      "definition": "A legislature with just one chamber, or house (the Articles of Confederation)"
     },
     {
       "topic": "articles",
-      "question": "Why couldn't the federal government under the Articles collect taxes?",
-      "answer": "It could only request money from states, not require it"
-    },
-    {
-      "topic": "articles",
-      "question": "What happened when states disagreed under the Articles?",
-      "answer": "There was no strong central authority to resolve disputes"
+      "term": "Unanimous",
+      "definition": "Agreed upon by everyone, with no one disagreeing"
     },
     {
       "topic": "convention",
-      "question": "Where was the Constitutional Convention held?",
-      "answer": "Philadelphia, Pennsylvania"
+      "term": "Bicameral",
+      "definition": "A legislature with two chambers, or houses (current system of the United States)"
     },
     {
       "topic": "convention",
-      "question": "What did the Virginia Plan propose?",
-      "answer": "A strong national government with representation based on population"
+      "term": "Compromise",
+      "definition": "An agreement in which each side gives up something it wants so that both can move forward"
     },
     {
       "topic": "convention",
-      "question": "What did the New Jersey Plan propose?",
-      "answer": "Equal representation for all states regardless of size"
+      "term": "Congress",
+      "definition": "The part of the U.S. government that makes laws"
     },
     {
       "topic": "convention",
-      "question": "What was the Three-Fifths Compromise?",
-      "answer": "Slaves would count as 3/5 of a person for representation and taxation"
+      "term": "Constitution",
+      "definition": "The written set of rules that sets up the government, explains its powers, and protects the rights of the people"
     },
     {
       "topic": "convention",
-      "question": "What was the Great Compromise?",
-      "answer": "Created a bicameral legislature with both proportional and equal representation"
+      "term": "Federalist",
+      "definition": "A person who supported the new Constitution and a stronger national government"
     },
     {
       "topic": "convention",
-      "question": "What is the job of the Legislative Branch?",
-      "answer": "To make laws (Congress - House of Representatives and Senate)"
+      "term": "Anti-Federalist",
+      "definition": "A person who opposed the new Constitution because they feared it gave the national government too much power and didn't protect individual rights"
     },
     {
       "topic": "convention",
-      "question": "What is the job of the Executive Branch?",
-      "answer": "To enforce laws (President and executive departments)"
-    },
-    {
-      "topic": "convention",
-      "question": "What is the job of the Judicial Branch?",
-      "answer": "To interpret laws (Supreme Court and federal courts)"
-    },
-    {
-      "topic": "convention",
-      "question": "How is representation determined in the Senate?",
-      "answer": "Equal representation - each state gets 2 senators regardless of population"
-    },
-    {
-      "topic": "convention",
-      "question": "How is representation determined in the House of Representatives?",
-      "answer": "Based on population - states with more people get more representatives"
-    },
-    {
-      "topic": "preamble",
-      "question": "What does 'form a more perfect union' mean?",
-      "answer": "Create a stronger, better united country than under the Articles of Confederation"
-    },
-    {
-      "topic": "preamble",
-      "question": "What does 'establish justice' mean?",
-      "answer": "Create a fair legal system and courts to ensure equal treatment under law"
-    },
-    {
-      "topic": "preamble",
-      "question": "What does 'ensure domestic tranquility' mean?",
-      "answer": "Keep peace within the country and prevent internal conflicts like rebellions"
-    },
-    {
-      "topic": "preamble",
-      "question": "What does 'provide for the common defense' mean?",
-      "answer": "Protect the nation from foreign threats and maintain military forces"
-    },
-    {
-      "topic": "preamble",
-      "question": "What does 'promote the general welfare' mean?",
-      "answer": "Work for the well-being and prosperity of all citizens"
-    },
-    {
-      "topic": "preamble",
-      "question": "What does 'secure the blessings of liberty' mean?",
-      "answer": "Protect freedom and rights for current and future generations"
+      "term": "Ratify",
+      "definition": "To officially approve something so that it becomes valid"
     },
     {
       "topic": "principles",
-      "question": "What is separation of powers?",
-      "answer": "Dividing government into three branches: legislative, executive, and judicial"
+      "term": "Popular Sovereignty",
+      "definition": "All political power resides in the people. The government can govern only with the consent of the people, shown through regular, open, and fair elections."
     },
     {
       "topic": "principles",
-      "question": "What are checks and balances?",
-      "answer": "Each branch of government can limit the power of the other branches"
+      "term": "Republicanism",
+      "definition": "People elect representatives at regular intervals to conduct government business and make decisions on their behalf."
     },
     {
       "topic": "principles",
-      "question": "What is federalism?",
-      "answer": "Power is shared between federal and state governments"
+      "term": "Limited Government",
+      "definition": "The government is not all-powerful. It can only do the things the people have given it the power to do, which are listed in the Constitution."
     },
     {
       "topic": "principles",
-      "question": "What is popular sovereignty?",
-      "answer": "Government gets its power from the people"
+      "term": "Separation of Powers",
+      "definition": "Legislative, executive, and judicial powers are placed into three distinct and independent branches of government, so no one branch can become all-powerful."
     },
     {
       "topic": "principles",
-      "question": "What is limited government?",
-      "answer": "Government power is restricted by law and the Constitution"
+      "term": "Checks and Balances",
+      "definition": "Each branch is subject to restraints by the other two branches, so each branch can \"check\" the others and stop an action from happening."
     },
     {
       "topic": "principles",
-      "question": "What is rule of law?",
-      "answer": "Everyone, including government officials, must follow the law"
+      "term": "Federalism",
+      "definition": "The division of power between a central (federal) government and several regional (state) governments."
     },
     {
       "topic": "principles",
-      "question": "What is republicanism?",
-      "answer": "People elect representatives to make decisions for them"
+      "term": "Rule of Law",
+      "definition": "Every person, even government leaders, is subject to well-defined and established laws. No one is exempt from following the laws."
     },
     {
       "topic": "principles",
-      "question": "What are individual rights?",
-      "answer": "Personal freedoms and protections that belong to each person and cannot be taken away by government"
+      "term": "Individual Rights",
+      "definition": "Personal liberties and protections without interference from others or the government (the flip side of limited government)."
     },
     {
       "topic": "billrights",
-      "question": "What does the 1st Amendment protect?",
-      "answer": "Freedom of speech, religion, press, assembly, and petition"
+      "term": "1st Amendment",
+      "definition": "Expression: freedom of religion, speech, and the press, the right to assemble peacefully, and the right to petition the government"
     },
     {
       "topic": "billrights",
-      "question": "What does the 2nd Amendment protect?",
-      "answer": "The right to bear arms (keep and carry weapons)"
+      "term": "2nd Amendment",
+      "definition": "Weapons: the right for citizens to own and carry firearms (states and localities can impose some regulations)"
     },
     {
       "topic": "billrights",
-      "question": "What does the 3rd Amendment protect?",
-      "answer": "Protection against being forced to house soldiers in your home during peacetime"
+      "term": "3rd Amendment",
+      "definition": "Quartering soldiers: the government cannot force people to house soldiers in their homes during peacetime"
     },
     {
       "topic": "billrights",
-      "question": "What does the 4th Amendment protect?",
-      "answer": "Protection against unreasonable searches and seizures by government"
+      "term": "4th Amendment",
+      "definition": "Searches: protection against unreasonable searches and seizures; police need a warrant based on probable cause that describes what can be searched"
     },
     {
       "topic": "billrights",
-      "question": "What does the 5th Amendment protect?",
-      "answer": "Right to due process, protection against self-incrimination, and double jeopardy"
+      "term": "5th Amendment",
+      "definition": "Legal rights: grand jury for serious crimes, no double jeopardy, no self-incrimination (\"pleading the Fifth\"), due process, and fair payment if property is taken for public use"
     },
     {
       "topic": "billrights",
-      "question": "What does the 6th Amendment protect?",
-      "answer": "Right to a speedy and public trial, and to have a lawyer"
+      "term": "6th Amendment",
+      "definition": "Fair trial: a speedy and public trial, an impartial jury, being told the charges, confronting and calling witnesses, and having a lawyer"
     },
     {
       "topic": "billrights",
-      "question": "What does the 7th Amendment protect?",
-      "answer": "Right to a jury trial in civil cases involving more than $20"
+      "term": "7th Amendment",
+      "definition": "Civil trials: the right to a jury trial in certain civil cases"
     },
     {
       "topic": "billrights",
-      "question": "What does the 8th Amendment protect?",
-      "answer": "Protection against excessive bail, fines, and cruel and unusual punishment"
+      "term": "8th Amendment",
+      "definition": "Punishment: no excessive bail, no excessive fines, and no cruel and unusual punishment"
     },
     {
       "topic": "billrights",
-      "question": "What does the 9th Amendment protect?",
-      "answer": "People have other rights not specifically listed in the Constitution"
+      "term": "9th Amendment",
+      "definition": "Other rights: just because a right isn't listed in the Constitution doesn't mean people don't have that right"
     },
     {
       "topic": "billrights",
-      "question": "What does the 10th Amendment protect?",
-      "answer": "Powers not given to federal government belong to states or the people"
+      "term": "10th Amendment",
+      "definition": "State power: powers not given to the federal government belong to the states or the people"
+    },
+    {
+      "topic": "billrights",
+      "term": "Abridging",
+      "definition": "Putting a limit on (1st Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Petition",
+      "definition": "To ask (1st Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Redress",
+      "definition": "The act of correcting or righting a wrong (1st Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Grievance",
+      "definition": "A wrong caused by someone else (1st Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "State",
+      "definition": "A country or regional government (2nd Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Infringed",
+      "definition": "Acted in a way that violates the rights of another (2nd Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Quartered",
+      "definition": "Housed (3rd Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Effects",
+      "definition": "Personal belongings (4th Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Offense",
+      "definition": "An illegal act (5th Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Jeopardy",
+      "definition": "Danger of loss, harm, or failure (5th Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Double Jeopardy",
+      "definition": "Being tried twice for the same crime, which the 5th Amendment forbids"
+    },
+    {
+      "topic": "billrights",
+      "term": "Compelled",
+      "definition": "Forced (5th Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Just",
+      "definition": "Fair (5th Amendment: \"just compensation\")"
+    },
+    {
+      "topic": "billrights",
+      "term": "Due Process",
+      "definition": "The steps the government must go through before punishing a person for a crime (5th Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Prosecutions",
+      "definition": "Trying someone in court for a crime (6th Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Impartial",
+      "definition": "Fair; not biased (6th Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Compulsory",
+      "definition": "Mandatory (6th Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Counsel",
+      "definition": "Legal help; a lawyer (6th Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Excessive Bail",
+      "definition": "An unreasonably high amount of money required to release someone before trial (8th Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Excessive Fines",
+      "definition": "Penalties that are grossly out of proportion to the offense (8th Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Cruel and Unusual Punishment",
+      "definition": "Penalties that are too harsh or inhumane (8th Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Enumeration",
+      "definition": "The act of mentioning or listing something (9th Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Construed",
+      "definition": "Interpreted (9th Amendment)"
+    },
+    {
+      "topic": "billrights",
+      "term": "Delegated",
+      "definition": "Given as a responsibility to another (10th Amendment)"
     }
   ],
   "quiz": [
