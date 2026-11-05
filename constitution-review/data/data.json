@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05T15:20:23.496Z",
+  "generated": "2026-11-05T15:29:52.358Z",
   "topics": [
     {
       "code": "articles",
@@ -518,6 +518,54 @@
       "explanation": "Congress could declare war, make treaties, and coin money. It could not collect taxes or regulate trade between states, and there was no president to enforce its laws."
     },
     {
+      "topic": "articles",
+      "question": "Under the Articles of Confederation, eight states vote for a new law and five states vote against it. What happens?",
+      "options": [
+        "The law passes because most states voted for it",
+        "The law fails because 9 of the 13 states had to agree",
+        "The president breaks the tie",
+        "The Supreme Court decides whether the law passes"
+      ],
+      "correct": 1,
+      "explanation": "Passing a law under the Articles required 9 of the 13 states, so 8 votes weren't enough even though it was a majority. There was no president or Supreme Court to step in."
+    },
+    {
+      "topic": "articles",
+      "question": "Twelve states agree to give Congress the power to collect taxes, but Rhode Island votes no. What happens to the change?",
+      "options": [
+        "It passes because 12 states agreed",
+        "Rhode Island is removed from the country",
+        "It fails because changing the Articles required all 13 states to agree",
+        "Congress can tax every state except Rhode Island"
+      ],
+      "correct": 2,
+      "explanation": "Amending the Articles had to be unanimous, so one state could block a change the other twelve wanted. This really happened: Rhode Island blocked a national tax in the 1780s. States couldn't be removed, and Congress couldn't tax only some of them."
+    },
+    {
+      "topic": "articles",
+      "question": "Why did requiring large majorities, like 9 of 13 states to pass a law, make the Articles government ineffective?",
+      "options": [
+        "A few states could block almost anything, so very little got done",
+        "It let the large states control every decision",
+        "It gave the national government too much power",
+        "It meant the president could ignore Congress"
+      ],
+      "correct": 0,
+      "explanation": "When most states have to agree, a small group can stop any law, so Congress struggled to act even on serious problems like debt. Every state had one vote no matter its size, the national government was weak rather than too powerful, and there was no president."
+    },
+    {
+      "topic": "articles",
+      "question": "Which statement best explains why the national government under the Articles of Confederation was weak?",
+      "options": [
+        "It had a president who could veto every law",
+        "The national courts overruled the states too often",
+        "Congress had too many members to make decisions",
+        "Congress had few powers, and passing or changing anything required most or all of the states to agree"
+      ],
+      "correct": 3,
+      "explanation": "Congress couldn't tax or regulate trade, and the 9-of-13 and all-13 voting rules made it hard to fix that. There was no president or national court system, and the size of Congress wasn't the main problem."
+    },
+    {
       "topic": "convention",
       "question": "Where was the Constitutional Convention held in 1787?",
       "options": [
@@ -794,6 +842,198 @@
       "explanation": "These states sent long lists of amendments they wanted, and supporters promised a bill of rights would be added, which led to the first ten amendments in 1791. The Constitution replaced the Articles and created a president, and no promise was made that states could leave."
     },
     {
+      "topic": "convention",
+      "question": "How many senators does each state have?",
+      "options": [
+        "It depends on the state's population",
+        "One",
+        "Two",
+        "Ten"
+      ],
+      "correct": 2,
+      "explanation": "Every state has two senators no matter how many people live there. That equal representation came from the small states' side of the Great Compromise. Population decides the number of House members, not senators."
+    },
+    {
+      "topic": "convention",
+      "question": "Wyoming has the smallest population of any state, and California has the largest. How many senators does each state have?",
+      "options": [
+        "Both have two",
+        "Wyoming has one and California has fifty",
+        "Wyoming has two and California has fifty-two",
+        "Both have the same number of House members as senators"
+      ],
+      "correct": 0,
+      "explanation": "The Senate gives every state exactly two senators, so tiny Wyoming and huge California are equal there. Their difference shows up in the House of Representatives, where California has many more members because representation is based on population."
+    },
+    {
+      "topic": "convention",
+      "question": "With 50 states, how many total members are in the U.S. Senate?",
+      "options": [
+        "50",
+        "435",
+        "538",
+        "100"
+      ],
+      "correct": 3,
+      "explanation": "Fifty states with two senators each makes 100 senators. 435 is the number of voting members of the House, and 538 is the number of electors in the Electoral College."
+    },
+    {
+      "topic": "convention",
+      "question": "How many voting members are in the U.S. House of Representatives?",
+      "options": [
+        "100",
+        "435",
+        "50",
+        "538"
+      ],
+      "correct": 1,
+      "explanation": "The House has 435 voting members, divided among the states by population. 100 is the size of the Senate, and 538 is the total number of electors in the Electoral College."
+    },
+    {
+      "topic": "convention",
+      "question": "Wisconsin has 8 members in the House of Representatives, while Rhode Island has 2. Why is there a difference?",
+      "options": [
+        "The number of House members is based on each state's population",
+        "Wisconsin joined the country earlier than Rhode Island",
+        "Wisconsin is larger in land area",
+        "Rhode Island chose to send fewer members"
+      ],
+      "correct": 0,
+      "explanation": "House representation is based on population, the large states' side of the Great Compromise. Land area and the order states joined don't matter, and states don't get to choose how many members they send."
+    },
+    {
+      "topic": "convention",
+      "question": "The rule that every state gets the same number of senators comes from the ideas of which plan?",
+      "options": [
+        "The Virginia Plan",
+        "The New Jersey Plan",
+        "The Three-Fifths Compromise",
+        "The Articles of Confederation's tax plan"
+      ],
+      "correct": 1,
+      "explanation": "The New Jersey Plan wanted equal representation for every state, and the Great Compromise kept that idea for the Senate. The Virginia Plan wanted representation based on population, which became the House. The Three-Fifths Compromise was about counting enslaved people."
+    },
+    {
+      "topic": "convention",
+      "question": "Which part of today's Congress comes from the Virginia Plan's idea of representation?",
+      "options": [
+        "The Senate, where each state has two senators",
+        "The rule that all 13 states must agree to amendments",
+        "The House of Representatives, where states with more people have more members",
+        "The Electoral College"
+      ],
+      "correct": 2,
+      "explanation": "The Virginia Plan based representation on population, and that idea became the House of Representatives. Equal Senate seats came from the New Jersey Plan, the all-13 rule was part of the Articles, and the Electoral College was a separate compromise about choosing the president."
+    },
+    {
+      "topic": "convention",
+      "question": "A delegate from a small state says, \"We will never accept a Congress where the big states control everything.\" Which part of the Great Compromise answered his concern?",
+      "options": [
+        "The House of Representatives, based on population",
+        "The president's veto",
+        "The Three-Fifths Compromise",
+        "The Senate, where every state has equal representation"
+      ],
+      "correct": 3,
+      "explanation": "Equal representation in the Senate protected small states from being outvoted. The House, based on population, favored large states. The veto and the Three-Fifths Compromise didn't address the small states' concern."
+    },
+    {
+      "topic": "convention",
+      "question": "James Madison's Virginia Plan divided the national government into three branches. Which branch was given the job of carrying out (enforcing) the laws?",
+      "options": [
+        "The executive branch",
+        "The legislative branch",
+        "The judicial branch",
+        "The state governments"
+      ],
+      "correct": 0,
+      "explanation": "The executive branch, led by the president, enforces laws. The legislative branch (Congress) makes laws, the judicial branch (the courts) interprets them, and state governments aren't one of the three national branches."
+    },
+    {
+      "topic": "convention",
+      "question": "Which is a correct match between a branch of government and its job, as proposed in the Virginia Plan?",
+      "options": [
+        "Judicial branch: makes the laws",
+        "Legislative branch: makes the laws",
+        "Executive branch: interprets the laws",
+        "Legislative branch: commands the army"
+      ],
+      "correct": 1,
+      "explanation": "The legislative branch (Congress) makes laws, the executive branch enforces them, and the judicial branch interprets them. Commanding the army is the president's job as commander in chief, which is part of the executive branch."
+    },
+    {
+      "topic": "convention",
+      "question": "The Articles of Confederation had only a Congress. What did the Virginia Plan add to the national government?",
+      "options": [
+        "A king and a parliament",
+        "State governments",
+        "An executive branch and a judicial branch, creating three branches",
+        "A second Congress for the southern states"
+      ],
+      "correct": 2,
+      "explanation": "The Articles had no president and no national courts. The Virginia Plan created three branches: legislative, executive, and judicial. State governments already existed, and no plan called for a king or a separate southern Congress."
+    },
+    {
+      "topic": "convention",
+      "question": "How did the Framers decide the president would be chosen?",
+      "options": [
+        "By the Supreme Court",
+        "By the state governors",
+        "By a direct national vote of all citizens",
+        "By electors in the Electoral College"
+      ],
+      "correct": 3,
+      "explanation": "The Constitution has electors from each state choose the president through the Electoral College. Neither the Supreme Court nor the governors choose the president, and the Framers rejected a purely direct national vote."
+    },
+    {
+      "topic": "convention",
+      "question": "Why was the Electoral College created as a compromise?",
+      "options": [
+        "Some delegates wanted Congress to choose the president, and others wanted the people to vote directly",
+        "The large states wanted a king and the small states didn't",
+        "The northern states wanted two presidents",
+        "The delegates couldn't agree on where the capital should be"
+      ],
+      "correct": 0,
+      "explanation": "Delegates disagreed about who should pick the president. Letting Congress choose could make the president depend on Congress, and some delegates doubted a national popular vote would work, so electors chosen by the states became the compromise. No one at the convention wanted a king or two presidents, and the capital wasn't part of this debate."
+    },
+    {
+      "topic": "convention",
+      "question": "Each state gets electors equal to its number of House members plus its senators. Wisconsin has 8 House members. How many electoral votes does Wisconsin have?",
+      "options": [
+        "8",
+        "10",
+        "2",
+        "16"
+      ],
+      "correct": 1,
+      "explanation": "Eight House members plus two senators equals 10 electoral votes. That formula mixes both sides of the Great Compromise: population (the House) and equal representation (the Senate)."
+    },
+    {
+      "topic": "convention",
+      "question": "Which of these issues was settled by a compromise at the Constitutional Convention?",
+      "options": [
+        "Whether the colonies should declare independence from Britain",
+        "Whether to write the Declaration of Independence",
+        "How the president would be chosen",
+        "Whether George Washington should lead the Continental Army"
+      ],
+      "correct": 2,
+      "explanation": "Choosing the president was settled by the Electoral College compromise, along with the Great Compromise and the Three-Fifths Compromise. Independence was declared in 1776, eleven years earlier, and Washington was chosen to lead the army during the Revolution."
+    },
+    {
+      "topic": "convention",
+      "question": "Which list correctly names three major compromises of the Constitutional Convention?",
+      "options": [
+        "The Bill of Rights, the Declaration of Independence, and the Treaty of Paris",
+        "The Articles of Confederation, Shays' Rebellion, and the Northwest Ordinance",
+        "The Virginia Plan, the New Jersey Plan, and the Federalist Papers",
+        "The Great Compromise, the Three-Fifths Compromise, and the Electoral College"
+      ],
+      "correct": 3,
+      "explanation": "These three compromises settled representation, how enslaved people were counted, and how the president is chosen. The Virginia and New Jersey Plans were the competing proposals, not compromises, and the other lists name documents or events from other times."
+    },
+    {
       "topic": "preamble",
       "question": "What three words begin the Preamble to the Constitution?",
       "options": [
@@ -1020,6 +1260,54 @@
       ],
       "correct": 2,
       "explanation": "Protecting civil rights and equal rights is securing the blessings of liberty. The law doesn't involve the military, a change to the Constitution itself, or stopping unrest."
+    },
+    {
+      "topic": "preamble",
+      "question": "What is the difference between \"form a more perfect union\" and \"secure the blessings of liberty\"?",
+      "options": [
+        "A more perfect union improves how the government itself works; blessings of liberty protects people's rights and freedoms, like voting",
+        "They mean the same thing",
+        "A more perfect union is about the military; blessings of liberty is about courts",
+        "A more perfect union is about the states; blessings of liberty is about other countries"
+      ],
+      "correct": 0,
+      "explanation": "Ask whether the scenario fixes how the government works (more perfect union) or protects and expands people's rights and freedoms (blessings of liberty). The military is common defense, courts are justice, and neither goal is about other countries."
+    },
+    {
+      "topic": "preamble",
+      "question": "A new amendment gives more citizens the right to vote. Which Preamble goal is the best match?",
+      "options": [
+        "Form a more perfect union",
+        "Secure the blessings of liberty",
+        "Provide for the common defense",
+        "Insure domestic tranquility"
+      ],
+      "correct": 1,
+      "explanation": "Even though it happens through an amendment, the focus is on expanding a right (voting), which is securing the blessings of liberty. A more perfect union fits changes that fix how the government works. Common defense and domestic tranquility are about safety."
+    },
+    {
+      "topic": "preamble",
+      "question": "The 20th Amendment moved the day a new president takes office from March to January, so the country didn't have to wait so long after an election. Which Preamble goal is the best match?",
+      "options": [
+        "Secure the blessings of liberty",
+        "Promote the general welfare",
+        "Form a more perfect union",
+        "Establish justice"
+      ],
+      "correct": 2,
+      "explanation": "This amendment fixes a problem with how the government works, which is forming a more perfect union. It doesn't protect a right, provide a common good, or involve courts."
+    },
+    {
+      "topic": "preamble",
+      "question": "Which scenario is the best example of forming a more perfect union?",
+      "options": [
+        "The government builds a new public library",
+        "A court finds a person guilty of robbery",
+        "The Navy patrols the coast",
+        "Leaders replace a weak plan of government with a stronger one that fixes its problems"
+      ],
+      "correct": 3,
+      "explanation": "Improving the government itself, like replacing the Articles with the Constitution, is forming a more perfect union. The library is general welfare, the court case is justice, and the Navy is common defense."
     },
     {
       "topic": "principles",
@@ -1308,6 +1596,54 @@
       ],
       "correct": 3,
       "explanation": "Separation of powers gives each branch its own job, and checks and balances gives each branch ways to stop the others. They work as a pair but aren't the same. Dividing national and state power is federalism, and the Articles had no separate branches."
+    },
+    {
+      "topic": "principles",
+      "question": "Under federalism, which level of government usually makes rules about local parking, building codes, and neighborhood speed limits?",
+      "options": [
+        "Local governments, like cities and counties",
+        "The national government",
+        "The Supreme Court",
+        "The president"
+      ],
+      "correct": 0,
+      "explanation": "Federalism divides power among levels of government, and states let cities and counties handle many local issues. The national government focuses on issues like war and trade, and the Supreme Court and the president don't write local rules."
+    },
+    {
+      "topic": "principles",
+      "question": "The national government runs the military, Wisconsin sets the age to get a driver's license, and your city sets the speed limit on your street. Which principle does this best show?",
+      "options": [
+        "Separation of powers",
+        "Federalism",
+        "Checks and balances",
+        "Republicanism"
+      ],
+      "correct": 1,
+      "explanation": "Different levels of government (national, state, and local) each handle different jobs, which is federalism. Separation of powers and checks and balances are about the three branches, and republicanism is about electing representatives."
+    },
+    {
+      "topic": "principles",
+      "question": "Your town wants to build a new public park. Which level of government would most likely make this decision?",
+      "options": [
+        "The national government",
+        "The Supreme Court",
+        "The local government, such as the city council",
+        "Congress"
+      ],
+      "correct": 2,
+      "explanation": "Local projects like parks are usually decided by city or village governments. Congress is part of the national government, and the Supreme Court decides court cases, not building projects."
+    },
+    {
+      "topic": "principles",
+      "question": "Which of these is the best example of a power that belongs to a local government, like a city or county?",
+      "options": [
+        "Making treaties with other countries",
+        "Printing money",
+        "Declaring war",
+        "Deciding where people can park downtown"
+      ],
+      "correct": 3,
+      "explanation": "Parking rules are a local matter, which shows that federalism includes cities and counties, not just state and national governments. Treaties, printing money, and declaring war are powers of the national government."
     },
     {
       "topic": "billrights",
