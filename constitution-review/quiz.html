@@ -13,35 +13,50 @@
 <main>
   <div class="page-head">
     <h2>Practice Quiz</h2>
+    <p>Pick a topic to focus on, or mix them all together. After each answer you'll see why it's right or wrong.</p>
   </div>
 
   <div class="panel">
-    <div id="quiz-start" class="center">
-      <p id="quiz-intro">Test your knowledge with questions covering all Constitution topics.</p>
-      <button type="button" class="btn big" id="start-btn">Start quiz</button>
+    <div id="quiz-start">
+      <fieldset class="topic-pick">
+        <legend class="field-label">Choose a topic</legend>
+        <div id="topic-list" class="topic-list"></div>
+      </fieldset>
+      <div class="btn-row">
+        <button type="button" class="btn big" id="start-btn">Start quiz</button>
+      </div>
     </div>
 
     <div id="quiz-content" class="hidden">
       <div class="meta-row">
         <span id="quiz-progress">Question 1</span>
+        <span id="quiz-topic" style="font-weight:600; color: var(--navy)"></span>
         <span id="quiz-score">Score: 0/0</span>
       </div>
       <div class="progress"><div id="quiz-bar"></div></div>
       <p class="question" id="quiz-question"></p>
       <div class="choices" id="quiz-options"></div>
+
+      <div id="quiz-feedback" class="callout hidden" aria-live="polite">
+        <h4 id="feedback-head"></h4>
+        <p id="feedback-text"></p>
+      </div>
+
       <div class="btn-row spread">
-        <button type="button" class="btn secondary" id="quiz-prev">Previous</button>
-        <button type="button" class="btn" id="quiz-next" disabled>Next</button>
+        <button type="button" class="btn secondary" id="quit-btn">Change topic</button>
+        <button type="button" class="btn" id="check-btn" disabled>Check answer</button>
+        <button type="button" class="btn hidden" id="next-btn">Next question</button>
       </div>
     </div>
 
     <div id="quiz-results" class="hidden center">
       <h3>Quiz complete!</h3>
+      <p id="results-topic" style="color: var(--muted)"></p>
       <p class="score-big" id="final-score"></p>
       <p id="score-feedback"></p>
       <div class="btn-row">
-        <button type="button" class="btn" id="retake-btn">Retake quiz</button>
-        <a class="btn secondary" href="index.html">Back to home</a>
+        <button type="button" class="btn" id="retake-btn">Try this topic again</button>
+        <button type="button" class="btn secondary" id="topics-btn">Choose another topic</button>
       </div>
     </div>
   </div>
