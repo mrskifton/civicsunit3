@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" font-family="Comic Sans MS, Chalkboard SE, Marker Felt, sans-serif">
+  <title>Sample cartoon: a tug-of-war over power between the national government and the states</title>
+  <defs>
+  <g id="st" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <circle cx="0" cy="0" r="22" fill="#fff"/>
+      <path d="M-11 -2 l6 3 M5 1 l6 -3 M-9 12 h18" stroke-width="3"/>
+      <path d="M-6 22 L20 110" stroke-width="7"/>
+      <path d="M2 50 L-40 82 M2 50 L-30 96" stroke-width="5"/>
+      <path d="M20 110 L52 150 L66 150 M20 110 L-2 152 L-16 152" stroke-width="5"/>
+  </g>
+  </defs>
+  <rect width="800" height="560" fill="#fff"/>
+  <g stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- ground -->
+    <path d="M30 452 Q400 440 770 452" stroke-width="3"/>
+    <path d="M90 465 l25 -6 M230 470 l30 -4 M520 468 l28 -5 M660 466 l24 -6" stroke-width="2"/>
+
+    <!-- rope -->
+    <path d="M150 300 Q420 330 760 300" stroke-width="8"/>
+
+    <!-- NATIONAL GOVERNMENT: one big figure leaning left -->
+    <circle cx="150" cy="190" r="42" fill="#fff"/>
+    <path d="M128 185 l12 4 M158 189 l12 -4" stroke-width="4"/>
+    <path d="M132 214 h36" stroke-width="4"/>
+    <path d="M136 214 v-5 M146 214 v-5 M156 214 v-5 M166 214 v-5" stroke-width="2"/>
+    <path d="M100 160 q-6 10 0 16 M98 186 q-5 8 0 12" stroke-width="3"/>
+    <path d="M170 232 L130 360" stroke-width="9"/>
+    <path d="M160 262 L250 300 M160 262 L230 318"/>
+    <path d="M130 360 L80 445 L58 448 M130 360 L165 440 L190 446"/>
+
+    <!-- STATES: five smaller figures leaning right -->
+    <use href="#st" x="560" y="214"/>
+    <use href="#st" x="620" y="218"/>
+    <use href="#st" x="680" y="214"/>
+    <use href="#st" x="740" y="220"/>
+  </g>
+
+  <!-- POWER flag on the rope -->
+  <path d="M430 318 L430 380 L470 360 L430 342" fill="#b23a2e" stroke="#111" stroke-width="3"/>
+  <text x="405" y="408" font-size="22" font-weight="700" fill="#111">POWER</text>
+
+  <!-- labels -->
+  <g font-weight="700" fill="#111" text-anchor="middle">
+    <rect x="40" y="70" width="220" height="44" rx="6" fill="#fff" stroke="#111" stroke-width="3"/>
+    <text x="150" y="99" font-size="20">NATIONAL GOV’T</text>
+    <rect x="560" y="120" width="200" height="44" rx="6" fill="#fff" stroke="#111" stroke-width="3"/>
+    <text x="660" y="149" font-size="20">THE STATES</text>
+  </g>
+
+  <!-- referee holding the Constitution -->
+  <g stroke="#111" stroke-width="5" stroke-linecap="round" fill="none">
+    <circle cx="420" cy="120" r="26" fill="#fff"/>
+    <path d="M410 116 h6 M426 116 h6 M412 132 q8 5 16 0" stroke-width="3"/>
+    <path d="M420 146 L420 232"/>
+    <path d="M420 170 L380 196 M420 170 L460 190"/>
+  </g>
+  <rect x="336" y="180" width="92" height="44" fill="#f3e3b5" stroke="#111" stroke-width="3" transform="rotate(-8 381 202)"/>
+  <text x="381" y="200" font-size="10" font-weight="700" text-anchor="middle" transform="rotate(-8 381 202)">U.S.</text>
+  <text x="381" y="214" font-size="10" font-weight="700" text-anchor="middle" transform="rotate(-8 381 202)">CONSTITUTION</text>
+
+  <!-- speech bubble -->
+  <path d="M470 40 h250 a16 16 0 0 1 16 16 v44 a16 16 0 0 1 -16 16 h-200 l-40 26 l8 -26 h-18 a16 16 0 0 1 -16 -16 v-44 a16 16 0 0 1 16 -16z" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="595" y="72" font-size="18" text-anchor="middle" fill="#111">Same rules as always:</text>
+  <text x="595" y="96" font-size="18" text-anchor="middle" fill="#111">nobody wins it all!</text>
+
+  <text x="400" y="525" font-size="22" text-anchor="middle" fill="#111" font-style="italic">“The longest-running game in America.”</text>
+  <text x="780" y="550" font-size="11" text-anchor="end" fill="#555">Sample cartoon for practice. Replace with your own.</text>
+</svg>
