@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05T15:13:18.948Z",
+  "generated": "2026-11-05T15:20:23.496Z",
   "topics": [
     {
       "code": "articles",
@@ -72,6 +72,46 @@
       "topic": "convention",
       "term": "Ratify",
       "definition": "To officially approve something so that it becomes valid"
+    },
+    {
+      "topic": "preamble",
+      "term": "Preamble",
+      "definition": "The introduction to the Constitution that explains its purpose and lists the six goals of government"
+    },
+    {
+      "topic": "preamble",
+      "term": "Form a more perfect union",
+      "definition": "Make the government better than what we had before (the Articles of Confederation), including fixing problems by amending the Constitution"
+    },
+    {
+      "topic": "preamble",
+      "term": "Establish justice",
+      "definition": "Create a fair system of laws, courts, judges, and trials that punishes crime and decides a person's guilt or innocence"
+    },
+    {
+      "topic": "preamble",
+      "term": "Insure domestic tranquility",
+      "definition": "Keep peace at home, within the country and between the states, so people are safe"
+    },
+    {
+      "topic": "preamble",
+      "term": "Provide for the common defense",
+      "definition": "Protect the country from outside threats, such as with the military and in times of war"
+    },
+    {
+      "topic": "preamble",
+      "term": "Promote the general welfare",
+      "definition": "Provide common goods that everyone can benefit from, such as protecting the environment and keeping people healthy"
+    },
+    {
+      "topic": "preamble",
+      "term": "Secure the blessings of liberty",
+      "definition": "Protect everyone's constitutional rights and freedoms, such as voting, civil rights, and equal rights, for ourselves and our posterity"
+    },
+    {
+      "topic": "preamble",
+      "term": "Posterity",
+      "definition": "Future generations; the people who come after us"
     },
     {
       "topic": "principles",
