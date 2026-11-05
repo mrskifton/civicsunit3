@@ -44,7 +44,7 @@
     if (has("amendment", "scenario", "explanation")) return "gameScenarios";
     if (has("question", "option_a", "correct_answer", "difficulty")) return "diagnostic";
     if (has("question", "option_a", "correct_answer")) return "quiz";
-    if (has("topic", "question", "answer")) return "flashcards";
+    if (has("topic", "term", "definition") || has("topic", "question", "answer")) return "flashcards";
     return null;
   }
 
@@ -121,10 +121,12 @@
       }
 
       if (type === "flashcards") {
+        // Accepts term/definition columns (or the older question/answer columns)
+        const front = rec.term ?? rec.question, back = rec.definition ?? rec.answer;
         checkTopic(rec, p);
-        if (!rec.question) p.push("question is empty");
-        if (!rec.answer) p.push("answer is empty");
-        item = { topic: rec.topic, question: rec.question, answer: rec.answer };
+        if (!front) p.push("term is empty");
+        if (!back) p.push("definition is empty");
+        item = { topic: rec.topic, term: front, definition: back };
       }
 
       if (type === "quiz" || type === "diagnostic") {
