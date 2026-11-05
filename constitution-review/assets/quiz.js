@@ -28,6 +28,11 @@
     if (n) addTopic(t.code, t.name, n);
   });
 
+  // Preselect a topic from a link like quiz.html?topic=preamble
+  const wanted = new URLSearchParams(location.search).get("topic");
+  const match = wanted && [...list.querySelectorAll("input")].find(i => i.value === wanted);
+  if (match) match.checked = true;
+
   const topicLabel = code => code === "all" ? "All topics" : (data.topicNames[code] || code);
 
   function start() {
