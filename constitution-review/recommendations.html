@@ -17,7 +17,7 @@
 
   <div class="panel">
     <div id="diag-start" class="center">
-      <p>Answer questions until the system identifies your strengths and areas for improvement. The questions adapt to how you're doing: get them right and they get harder.</p>
+      <p id="diag-intro">Answer a short set of questions from every topic. The questions get harder when you answer correctly and easier when you miss one. At the end you'll see which topics to study first, with links to the right flashcards and practice quiz.</p>
       <button type="button" class="btn big" id="start-btn">Start assessment</button>
     </div>
 
@@ -25,6 +25,7 @@
       <div class="meta-row">
         <span id="diag-progress">Question 1</span>
         <span id="diag-topic" style="font-weight:600; color: var(--navy)"></span>
+        <span id="diag-level"></span>
       </div>
       <div class="progress"><div id="diag-bar" style="background: var(--brick)"></div></div>
       <p class="question" id="diag-question"></p>
