@@ -311,3 +311,15 @@ label.field-label, legend.field-label { display: block; font-weight: 600; margin
 .btn.remove { background: transparent; color: var(--good); border-color: var(--good); }
 .btn.remove:hover { background: var(--good-bg); }
 #deck-done { max-width: 34rem; margin: 0 auto; }
+
+/* ---------- Study recommendations results ---------- */
+.rec .rec-points { font-size: 0.92rem; font-weight: 600; color: var(--muted); margin-top: 0.25rem; }
+.rec .rec-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; }
+.rec .missed { margin-top: 0.75rem; }
+.rec .missed summary { cursor: pointer; font-weight: 600; color: var(--navy-soft); }
+.missed-item { background: rgba(255,255,255,0.7); border-radius: 6px; padding: 0.7rem 0.9rem; margin-top: 0.6rem; }
+.missed-item p { margin: 0 0 0.3rem; }
+.missed-item .missed-q { font-weight: 600; }
+.missed-item .missed-yours { color: var(--bad); }
+.missed-item .missed-right { color: var(--good); font-weight: 600; }
+.missed-item .missed-why { color: var(--text); font-size: 0.95rem; margin-bottom: 0; }
