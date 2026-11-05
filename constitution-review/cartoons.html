@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Political Cartoons · Constitution Test Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main>
+  <div class="page-head">
+    <h2>Political Cartoon Practice</h2>
+    <p>Analyze a cartoon one POPES step at a time. Write your own answer first, then compare it with the model answer. Finish by writing a full paragraph, just like the short answer on the test.</p>
+  </div>
+
+  <div class="panel cartoon-picker hidden" id="picker">
+    <label class="field-label" for="cartoon-select">Choose a cartoon</label>
+    <select id="cartoon-select"></select>
+  </div>
+
+  <div class="cartoon-layout" id="cartoon-layout">
+    <figure class="cartoon-figure">
+      <h3 id="cartoon-title"></h3>
+      <a id="cartoon-link" href="#" target="_blank" rel="noopener" title="Open full size">
+        <img id="cartoon-img" alt="">
+      </a>
+      <figcaption>
+        <a id="cartoon-link-text" href="#" target="_blank" rel="noopener">Open full size</a>
+        <div id="cartoon-context" class="callout info hidden"></div>
+      </figcaption>
+    </figure>
+
+    <div class="cartoon-steps" id="steps"></div>
+  </div>
+</main>
+<script src="assets/site.js"></script>
+<script src="assets/cartoons.js"></script>
+</body>
+</html>
