@@ -13,7 +13,7 @@
 <main>
   <div class="page-head">
     <h2>Flashcards</h2>
-    <p>Read the question, try to answer it in your head, then flip the card to check.</p>
+    <p>Read the term, say the definition in your head, then flip the card to check. When you know a card, remove it from the deck so you can focus on the ones you're still learning.</p>
   </div>
 
   <div class="panel">
@@ -26,19 +26,33 @@
 
     <div class="card-count" id="card-counter" aria-live="polite">Loading cards…</div>
 
-    <button type="button" class="flashcard" id="flashcard" aria-label="Flashcard. Select to flip.">
-      <div class="inner">
-        <div class="face front"><span class="tag" id="card-topic-front"></span><span id="card-question"></span></div>
-        <div class="face back"><span class="tag">Answer</span><span id="card-answer"></span></div>
-      </div>
-    </button>
+    <div id="card-area">
+      <button type="button" class="flashcard" id="flashcard" aria-label="Flashcard. Select to flip.">
+        <div class="inner">
+          <div class="face front"><span class="tag" id="card-topic-front"></span><span id="card-question"></span></div>
+          <div class="face back"><span class="tag">Definition</span><span id="card-answer"></span></div>
+        </div>
+      </button>
 
-    <div class="btn-row">
-      <button type="button" class="btn secondary" id="prev-card">Previous</button>
-      <button type="button" class="btn" id="flip-card">Flip card</button>
-      <button type="button" class="btn secondary" id="next-card">Next</button>
+      <div class="btn-row">
+        <button type="button" class="btn secondary" id="prev-card">Previous</button>
+        <button type="button" class="btn" id="flip-card">Flip card</button>
+        <button type="button" class="btn secondary" id="next-card">Next</button>
+      </div>
+      <div class="btn-row deck-row">
+        <button type="button" class="btn remove" id="remove-card">Remove from deck</button>
+      </div>
     </div>
-    <p class="hint">Keyboard: Space flips the card, ← and → move between cards.</p>
+
+    <div id="deck-done" class="callout good center hidden">
+      <h4>You removed every card in this deck!</h4>
+      <p>Put them back to review again, or choose another study mode.</p>
+    </div>
+
+    <div class="btn-row deck-row">
+      <button type="button" class="btn secondary hidden" id="restore-cards"></button>
+    </div>
+    <p class="hint">Keyboard: Space flips the card, ← and → move between cards, R removes the card.</p>
   </div>
 </main>
 <script src="assets/site.js"></script>
