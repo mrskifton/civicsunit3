@@ -185,7 +185,7 @@ select {
   font: inherit; padding: 0.55rem 0.75rem; border: 2px solid var(--line);
   border-radius: 8px; background: var(--paper); color: var(--text); width: 100%;
 }
-label.field-label { display: block; font-weight: 600; margin-bottom: 0.35rem; }
+label.field-label, legend.field-label { display: block; font-weight: 600; margin-bottom: 0.35rem; }
 
 .load-error { background: var(--bad-bg); border: 1px solid #e6bab3; border-radius: 8px; padding: 1rem 1.25rem; }
 
@@ -291,3 +291,17 @@ label.field-label { display: block; font-weight: 600; margin-bottom: 0.35rem; }
 
 /* Panels sitting side by side in a grid shouldn't get the stacked-panel top margin */
 .facts > .panel, .popes > .panel, .two-col > .panel, .activity-grid > * { margin-top: 0; }
+
+/* ---------- Quiz topic picker ---------- */
+.topic-pick { border: 0; padding: 0; margin: 0; }
+.topic-list { display: grid; gap: 0.6rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); margin-top: 0.5rem; }
+.topic-option {
+  display: flex; align-items: center; gap: 0.75rem; cursor: pointer;
+  border: 2px solid var(--line); border-radius: 8px; padding: 0.75rem 1rem; background: var(--paper);
+}
+.topic-option:hover { border-color: var(--navy-soft); }
+.topic-option:has(input:checked) { border-color: var(--navy); background: #e3e9f5; }
+.topic-option input { accent-color: var(--navy); width: 1.1rem; height: 1.1rem; flex: none; }
+.topic-option .name { font-weight: 600; }
+.topic-option .count { display: block; font-size: 0.88rem; color: var(--muted); }
+.topic-option.all { grid-column: 1 / -1; }
