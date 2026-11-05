@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T16:08:22.949Z",
+  "generated": "2026-11-05T15:01:54.045Z",
   "topics": [
     {
       "code": "articles",
@@ -216,114 +216,1348 @@
   ],
   "quiz": [
     {
-      "question": "I do not support a strong central government. I am a...",
+      "topic": "articles",
+      "question": "What was the first written plan of government for the United States?",
       "options": [
-        "Federalist",
-        "Anti-Federalist",
-        "Nationalist",
-        "Loyalist"
+        "The Declaration of Independence",
+        "The Articles of Confederation",
+        "The Bill of Rights",
+        "The Mayflower Compact"
       ],
       "correct": 1,
-      "topic": "convention"
+      "explanation": "The Articles of Confederation was the first plan of government for the new nation. The Declaration of Independence announced independence but did not set up a government, the Bill of Rights was added to the Constitution in 1791, and the Mayflower Compact was a colonial agreement from 1620."
     },
     {
-      "question": "Which weakness of the Articles of Confederation led to Shays' Rebellion?",
+      "topic": "articles",
+      "question": "Why did the national government struggle to pay its war debts under the Articles of Confederation?",
       "options": [
-        "No power to tax",
-        "No executive branch",
-        "No national court system",
-        "All of the above"
-      ],
-      "correct": 3,
-      "topic": "articles"
-    },
-    {
-      "question": "The Great Compromise resolved the conflict between which two plans?",
-      "options": [
-        "Virginia and New Jersey Plans",
-        "Hamilton and Jefferson Plans",
-        "Northern and Southern Plans",
-        "Federal and State Plans"
-      ],
-      "correct": 0,
-      "topic": "convention"
-    },
-    {
-      "question": "Which Preamble goal is demonstrated by creating the Supreme Court?",
-      "options": [
-        "Establish justice",
-        "Ensure domestic tranquility",
-        "Provide common defense",
-        "Promote general welfare"
-      ],
-      "correct": 0,
-      "topic": "preamble"
-    },
-    {
-      "question": "When the President vetoes a law, which principle is being demonstrated?",
-      "options": [
-        "Separation of powers",
-        "Checks and balances",
-        "Federalism",
-        "Popular sovereignty"
-      ],
-      "correct": 1,
-      "topic": "principles"
-    },
-    {
-      "question": "A state law conflicts with a federal law. Which principle determines the outcome?",
-      "options": [
-        "Federalism",
-        "Supremacy Clause",
-        "States' rights",
-        "Popular sovereignty"
-      ],
-      "correct": 1,
-      "topic": "principles"
-    },
-    {
-      "question": "The 1st Amendment protects all of the following EXCEPT:",
-      "options": [
-        "Freedom of speech",
-        "Freedom of religion",
-        "Right to bear arms",
-        "Freedom of press"
+        "It did not have an army to protect its money",
+        "The president refused to approve spending",
+        "Congress had no power to tax and could only ask the states for money",
+        "The Supreme Court blocked every tax law"
       ],
       "correct": 2,
-      "topic": "billrights"
+      "explanation": "Congress could request money from the states but could not require them to pay, so it had no reliable income. There was no president or Supreme Court under the Articles, and the army was not the reason the debts went unpaid."
     },
     {
-      "question": "Under the Articles of Confederation, how many states needed to agree to pass a law?",
+      "topic": "articles",
+      "question": "According to A More Perfect Union, what two things must be balanced when creating a new government?",
       "options": [
-        "7 out of 13",
-        "9 out of 13",
-        "11 out of 13",
-        "All 13"
+        "Taxes and spending",
+        "The North and the South",
+        "Cities and farms",
+        "Power and liberty"
+      ],
+      "correct": 3,
+      "explanation": "Too much power leads to tyranny and too much liberty leads to anarchy (chaos), so a good government balances the two. The other pairs were real issues of the time, but they are not the central balance the film describes."
+    },
+    {
+      "topic": "articles",
+      "question": "A merchant travels from New York to New Jersey. Her New York money isn't accepted, and she must pay a tax to bring her goods across the state line. Which weakness of the Articles does this show?",
+      "options": [
+        "States printed their own money and Congress could not regulate trade between states",
+        "There was no national court system",
+        "The president had too much power over trade",
+        "Congress could not declare war"
+      ],
+      "correct": 0,
+      "explanation": "Under the Articles, each state could print its own currency and tax goods from other states, because Congress had no power to regulate trade. There was no president, and Congress actually could declare war. The lack of national courts is a real weakness but isn't what this scenario shows."
+    },
+    {
+      "topic": "articles",
+      "question": "What did Daniel Shays and the farmers in Shays' Rebellion do?",
+      "options": [
+        "Signed a treaty with Great Britain",
+        "Marched through Massachusetts protesting high taxes and debts, closing courthouses",
+        "Wrote the first draft of the Constitution",
+        "Refused to fight in the Revolutionary War"
       ],
       "correct": 1,
-      "topic": "articles"
+      "explanation": "Farmers who faced high taxes and jail for debt marched through Massachusetts, closed courthouses, and threatened the federal arsenal at Springfield. They did not write a constitution or sign a treaty, and many of them had been Revolutionary War veterans."
     },
     {
-      "question": "Which principle means government power comes from the people?",
+      "topic": "articles",
+      "question": "Why was Shays' Rebellion important?",
       "options": [
-        "Limited government",
+        "It ended the Revolutionary War",
+        "It created the first state constitution",
+        "It showed the national government was too weak to keep order and pushed leaders to call a convention",
+        "It gave Congress the power to tax"
+      ],
+      "correct": 2,
+      "explanation": "The national government could not raise an army to stop the rebellion, which convinced many leaders the Articles needed to be fixed. The war had already ended, Congress still couldn't tax afterward, and it had nothing to do with creating a state constitution."
+    },
+    {
+      "topic": "articles",
+      "question": "A foreign country refuses to sign a trade deal with the United States because it isn't sure all 13 states will follow it. Which weakness of the Articles does this show?",
+      "options": [
+        "Congress had too much power over the states",
+        "The president could not sign treaties",
+        "There were too many senators",
+        "The national government could not coordinate foreign policy because states acted on their own"
+      ],
+      "correct": 3,
+      "explanation": "Under the Articles, the states often acted independently, so other countries did not trust that the national government could keep its agreements. There was no president or Senate under the Articles, and Congress had too little power, not too much."
+    },
+    {
+      "topic": "articles",
+      "question": "Under the Articles of Confederation, how many states had to agree to pass a law?",
+      "options": [
+        "9 of 13",
+        "7 of 13",
+        "All 13",
+        "A simple majority of the people"
+      ],
+      "correct": 0,
+      "explanation": "Passing a law required 9 of the 13 states, which made it very hard to get anything done. Changing (amending) the Articles required all 13 states, and laws were voted on by states, not directly by the people."
+    },
+    {
+      "topic": "articles",
+      "question": "What was required to amend (change) the Articles of Confederation?",
+      "options": [
+        "9 of 13 states",
+        "All 13 states had to agree",
+        "A vote of the people",
+        "Approval from the president"
+      ],
+      "correct": 1,
+      "explanation": "Amending the Articles required unanimous approval from all 13 states, so a single state could block any change. Nine states were needed to pass a regular law, there was no national vote of the people, and there was no president."
+    },
+    {
+      "topic": "articles",
+      "question": "How was Congress set up under the Articles of Confederation?",
+      "options": [
+        "Two houses, with representation based on population",
+        "Two houses, one based on population and one equal",
+        "One house, where each state had one vote",
+        "One house elected directly by all citizens"
+      ],
+      "correct": 2,
+      "explanation": "The Articles created a one-house (unicameral) Congress where each state had one vote regardless of size. The two-house options describe the Virginia Plan and the Great Compromise, which came later at the Constitutional Convention."
+    },
+    {
+      "topic": "articles",
+      "question": "Which branch or branches of government existed under the Articles of Confederation?",
+      "options": [
+        "All three branches",
+        "Only the executive branch",
+        "Only the judicial branch",
+        "Only the legislative branch (Congress)"
+      ],
+      "correct": 3,
+      "explanation": "The Articles created only a Congress. There was no president to enforce laws and no national courts to settle disputes, which was one of the reasons the government was so weak."
+    },
+    {
+      "topic": "articles",
+      "question": "Which of these was a success of the government under the Articles of Confederation?",
+      "options": [
+        "The Northwest Ordinance set up a plan for how new territories could become states",
+        "It collected enough taxes to pay off the war debt",
+        "It created a strong national army to stop Shays' Rebellion",
+        "It created a single national currency"
+      ],
+      "correct": 0,
+      "explanation": "The Northwest Ordinance was one of the Articles' biggest strengths because it created an orderly way to add new states. The government could not collect taxes, could not stop Shays' Rebellion, and the states each printed their own money."
+    },
+    {
+      "topic": "articles",
+      "question": "Why did the states create such a weak national government under the Articles of Confederation?",
+      "options": [
+        "They wanted the president to have all the power",
+        "They feared a strong central government would become tyrannical like the British king",
+        "They wanted the national government to collect high taxes",
+        "They planned to rejoin Great Britain"
+      ],
+      "correct": 1,
+      "explanation": "After fighting a war against a powerful king, the states wanted to keep most power for themselves. They did not want a president with all the power or high national taxes, and they had no plan to rejoin Britain."
+    },
+    {
+      "topic": "articles",
+      "question": "After the war, a state prints huge amounts of paper money to pay its debts, and prices skyrocket. What is this problem called?",
+      "options": [
+        "Depression",
+        "Tariff",
+        "Inflation",
+        "Ratification"
+      ],
+      "correct": 2,
+      "explanation": "Inflation means prices rise and money is worth less, which happened when states printed too much paper money. A depression is an economic slowdown, a tariff is a tax on imported goods, and ratification means formally approving something."
+    },
+    {
+      "topic": "articles",
+      "question": "Under the Articles of Confederation, where was most of the power held?",
+      "options": [
+        "The state governments",
+        "The president",
+        "The Supreme Court",
+        "Congress"
+      ],
+      "correct": 0,
+      "explanation": "The Articles created a loose 'league of friendship' where the states kept most of their power. There was no president or Supreme Court, and Congress was too weak to control the states."
+    },
+    {
+      "topic": "articles",
+      "question": "Which of these powers DID Congress have under the Articles of Confederation?",
+      "options": [
+        "Collecting taxes from citizens",
+        "Declaring war and making treaties",
+        "Regulating trade between states",
+        "Enforcing laws through a president"
+      ],
+      "correct": 1,
+      "explanation": "Congress could declare war, make treaties, and coin money. It could not collect taxes or regulate trade between states, and there was no president to enforce its laws."
+    },
+    {
+      "topic": "convention",
+      "question": "Where was the Constitutional Convention held in 1787?",
+      "options": [
+        "Boston, Massachusetts",
+        "New York City, New York",
+        "Philadelphia, Pennsylvania",
+        "Washington, D.C."
+      ],
+      "correct": 2,
+      "explanation": "The delegates met at the State House (Independence Hall) in Philadelphia. Washington, D.C. did not exist yet, and Boston and New York were not where the convention met."
+    },
+    {
+      "topic": "convention",
+      "question": "What did Congress authorize the delegates in Philadelphia to do, and what did they actually do?",
+      "options": [
+        "They were told to revise the Articles of Confederation, but they wrote a completely new constitution",
+        "They were told to write a new constitution, but they only revised the Articles",
+        "They were told to declare independence, and they did",
+        "They were told to write the Bill of Rights, and they did"
+      ],
+      "correct": 0,
+      "explanation": "The delegates were only supposed to propose changes to the Articles, but they decided to start over and create a new national government. Independence had been declared in 1776, and the Bill of Rights was written later by Congress."
+    },
+    {
+      "topic": "convention",
+      "question": "Delegates at the convention agreed not to remove notes, to keep the doors and windows shut, and to discuss the meetings only inside the State House. Why?",
+      "options": [
+        "To keep the British from finding out about the meeting",
+        "To keep the meeting hot so it would end faster",
+        "To prevent the states from sending more delegates",
+        "To keep discussions secret so delegates felt free to change their minds"
+      ],
+      "correct": 3,
+      "explanation": "Secrecy let delegates debate openly and change positions without public pressure. The war with Britain was over, and the rules weren't meant to speed up the meeting or keep out delegates."
+    },
+    {
+      "topic": "convention",
+      "question": "The Virginia Plan, written by James Madison, said representation in Congress should be based on what?",
+      "options": [
+        "Equal votes for every state",
+        "Each state's population",
+        "Each state's wealth",
+        "The number of soldiers each state sent to the war"
+      ],
+      "correct": 1,
+      "explanation": "The Virginia Plan gave states with more people more representatives in both houses, which favored large states. Equal votes for every state was the New Jersey Plan, and wealth and soldiers were not the basis of either plan."
+    },
+    {
+      "topic": "convention",
+      "question": "What did the New Jersey Plan propose?",
+      "options": [
+        "A two-house legislature based on population",
+        "A king to lead the nation",
+        "A one-house legislature where each state had equal representation",
+        "Getting rid of the state governments"
+      ],
+      "correct": 2,
+      "explanation": "The New Jersey Plan protected small states with a one-house legislature and equal votes for each state. The two-house population plan was the Virginia Plan, and no plan called for a king or for eliminating the states."
+    },
+    {
+      "topic": "convention",
+      "question": "You are a delegate from Delaware, one of the smallest states. Which plan would you most likely support?",
+      "options": [
+        "The New Jersey Plan",
+        "The Virginia Plan",
+        "The Three-Fifths Compromise",
+        "The Articles of Confederation with no changes"
+      ],
+      "correct": 0,
+      "explanation": "Small states supported the New Jersey Plan because equal representation kept them from being outvoted by large states. The Virginia Plan favored large states, the Three-Fifths Compromise was about counting enslaved people, and most delegates agreed the Articles needed changes."
+    },
+    {
+      "topic": "convention",
+      "question": "Who proposed the plan that settled the argument between the Virginia and New Jersey Plans?",
+      "options": [
+        "George Washington",
+        "Benjamin Franklin",
+        "James Madison",
+        "Roger Sherman"
+      ],
+      "correct": 3,
+      "explanation": "Roger Sherman of Connecticut proposed the compromise, which is why it is also called the Connecticut Compromise. Washington led the convention, Madison wrote the Virginia Plan, and Franklin was a respected delegate but didn't propose this plan."
+    },
+    {
+      "topic": "convention",
+      "question": "What did the Great Compromise create?",
+      "options": [
+        "A one-house Congress with equal representation",
+        "A two-house Congress: the House based on population and the Senate with equal representation",
+        "A Congress chosen by the president",
+        "Three separate Congresses for the North, South, and West"
+      ],
+      "correct": 1,
+      "explanation": "The Great Compromise blended both plans: the House of Representatives is based on population (Virginia Plan) and the Senate gives each state two senators (New Jersey Plan). The other options were never part of the compromise."
+    },
+    {
+      "topic": "convention",
+      "question": "What does bicameral mean?",
+      "options": [
+        "Having two houses in the legislature",
+        "Having two presidents",
+        "Having two capitals",
+        "Having two political parties"
+      ],
+      "correct": 0,
+      "explanation": "'Bi' means two and 'camera' means chamber, so a bicameral legislature has two houses, like the House of Representatives and the Senate. It has nothing to do with the number of presidents, capitals, or parties."
+    },
+    {
+      "topic": "convention",
+      "question": "Why is Roger Sherman's plan called the Great Compromise?",
+      "options": [
+        "The large states got everything they wanted",
+        "The small states got everything they wanted",
+        "Each side gave up part of what it wanted so that everyone benefited",
+        "It was approved without any debate"
+      ],
+      "correct": 2,
+      "explanation": "A compromise means both sides give something up. Large states got population-based representation in the House, and small states got equal representation in the Senate. Neither side won completely, and there was plenty of debate."
+    },
+    {
+      "topic": "convention",
+      "question": "What was the Three-Fifths Compromise about?",
+      "options": [
+        "How many states were needed to ratify the Constitution",
+        "How long a president could serve",
+        "How many senators each state would get",
+        "How enslaved people would be counted for representation and taxes"
+      ],
+      "correct": 3,
+      "explanation": "Southern states wanted enslaved people counted for representation, while Northern states did not, so they agreed to count three of every five enslaved people. Ratification required nine states, and the Senate and presidential terms were settled separately."
+    },
+    {
+      "topic": "convention",
+      "question": "What did the convention decide about the slave trade?",
+      "options": [
+        "It was banned immediately",
+        "Congress could not ban the slave trade until 1808",
+        "Each state had to vote on it every year",
+        "It was never discussed"
+      ],
+      "correct": 1,
+      "explanation": "Many delegates wanted to end the slave trade, but to keep Southern states in the union they agreed Congress could not ban it until 1808, and Congress outlawed it that year. It wasn't banned right away, and it was a major topic of debate."
+    },
+    {
+      "topic": "convention",
+      "question": "Why are the delegates to the Constitutional Convention called the Framers?",
+      "options": [
+        "They framed, or shaped, our form of government",
+        "They built the frame of Independence Hall",
+        "They were all farmers",
+        "They framed the Declaration of Independence to hang in the State House"
+      ],
+      "correct": 0,
+      "explanation": "To frame something means to shape or build its structure, and the delegates shaped the structure of our government. The other answers play on the word but aren't the reason for the name."
+    },
+    {
+      "topic": "convention",
+      "question": "How many of the 13 states had to ratify the Constitution for it to take effect?",
+      "options": [
+        "7",
+        "13",
+        "9",
+        "11"
+      ],
+      "correct": 2,
+      "explanation": "Nine states had to ratify (approve) the Constitution, and New Hampshire became the ninth in 1788. Requiring all 13 was one of the problems with the Articles that the Framers wanted to avoid."
+    },
+    {
+      "topic": "convention",
+      "question": "What did the Federalists believe?",
+      "options": [
+        "Power should stay mostly with the states",
+        "A strong national government with three branches would protect liberty, so the Constitution should be ratified as written",
+        "The Articles of Confederation should be kept",
+        "A bill of rights had to be added before ratification"
+      ],
+      "correct": 1,
+      "explanation": "Federalists supported the Constitution as written and believed the three branches would check each other. Keeping power with the states and demanding a bill of rights were Anti-Federalist positions, and neither side wanted to keep the Articles unchanged."
+    },
+    {
+      "topic": "convention",
+      "question": "\"I worry this new central government will take away the rights we fought a revolution for. Power should stay with the states, which understand their citizens' needs.\" Who most likely said this?",
+      "options": [
+        "An Anti-Federalist",
+        "A Federalist",
+        "A Loyalist",
+        "King George III"
+      ],
+      "correct": 0,
+      "explanation": "Anti-Federalists feared a powerful central government and wanted power kept with the states. Federalists supported a stronger national government, Loyalists had supported Britain during the war, and King George III wasn't part of this debate."
+    },
+    {
+      "topic": "convention",
+      "question": "Why did Federalists think a bill of rights was unnecessary and possibly dangerous?",
+      "options": [
+        "They wanted the government to be able to take away rights",
+        "They thought the states would never ratify it",
+        "They believed only the president should protect rights",
+        "The Constitution already limited the government, and listing rights might suggest unlisted rights weren't protected"
+      ],
+      "correct": 3,
+      "explanation": "Federalists argued the Constitution only gave the government specific powers, and it would be impossible to list every right. They worried people would assume any right left off the list could be taken away. They did not want the government to take away rights."
+    },
+    {
+      "topic": "convention",
+      "question": "What were the main concerns of the Anti-Federalists?",
+      "options": [
+        "The Constitution gave the states too much power",
+        "The Articles of Confederation were too strong",
+        "The Constitution had no bill of rights, and a strong executive could become a tyrant",
+        "The Constitution had too many amendments"
+      ],
+      "correct": 2,
+      "explanation": "Anti-Federalists worried the new government could take away people's freedoms without a written list of rights, and that a president might act like a king. They thought the national government, not the states, would be too strong, and the original Constitution had no amendments yet."
+    },
+    {
+      "topic": "convention",
+      "question": "Who wrote the Bill of Rights, using George Mason's Virginia Declaration of Rights as a model?",
+      "options": [
+        "George Washington",
+        "James Madison",
+        "Thomas Jefferson",
+        "Alexander Hamilton"
+      ],
+      "correct": 1,
+      "explanation": "James Madison drafted the amendments after asking other founders for advice. Washington was president, Jefferson was in France during the convention and advised Madison, and Hamilton was a Federalist who argued a bill of rights wasn't needed."
+    },
+    {
+      "topic": "convention",
+      "question": "\"The three branches will compete and keep each other from becoming too powerful. We don't need to write out a list of rights.\" Who most likely said this?",
+      "options": [
+        "An Anti-Federalist",
+        "A delegate who wanted to keep the Articles",
+        "A Loyalist",
+        "A Federalist"
+      ],
+      "correct": 3,
+      "explanation": "This is the Federalist argument: checks and balances among the branches would protect liberty without a bill of rights. Anti-Federalists demanded a bill of rights, and Loyalists and supporters of the Articles weren't making this argument."
+    },
+    {
+      "topic": "convention",
+      "question": "Why did some delegates refuse to sign the Constitution?",
+      "options": [
+        "It did not include a bill of rights",
+        "It created too many states",
+        "It did not have a president",
+        "It kept the Articles of Confederation"
+      ],
+      "correct": 0,
+      "explanation": "Delegates such as George Mason refused to sign because the Constitution didn't list the people's rights. It did create a president, it replaced the Articles, and it didn't create any new states."
+    },
+    {
+      "topic": "convention",
+      "question": "What were the small states most worried about at the Constitutional Convention?",
+      "options": [
+        "Having to pay for the army",
+        "Losing their own state constitutions",
+        "Being outvoted and dominated by the large states",
+        "Having to give up slavery"
+      ],
+      "correct": 2,
+      "explanation": "Small states feared that representation based only on population would let large states control Congress. Their main concern was representation, not paying for the army, losing their constitutions, or slavery."
+    },
+    {
+      "topic": "convention",
+      "question": "Several states, including New York, Virginia, and Massachusetts, worried about ratifying the Constitution. What helped convince them?",
+      "options": [
+        "A promise that the Articles would stay in effect",
+        "A promise to add a bill of rights after ratification",
+        "A promise that there would never be a president",
+        "A promise that each state could leave at any time"
+      ],
+      "correct": 1,
+      "explanation": "These states sent long lists of amendments they wanted, and supporters promised a bill of rights would be added, which led to the first ten amendments in 1791. The Constitution replaced the Articles and created a president, and no promise was made that states could leave."
+    },
+    {
+      "topic": "preamble",
+      "question": "What three words begin the Preamble to the Constitution?",
+      "options": [
+        "We the People",
+        "When in the Course",
+        "We hold these truths",
+        "Four score and seven"
+      ],
+      "correct": 0,
+      "explanation": "\"We the People\" shows that the government's power comes from the people. \"When in the Course\" and \"We hold these truths\" are from the Declaration of Independence, and \"Four score and seven\" begins Lincoln's Gettysburg Address."
+    },
+    {
+      "topic": "preamble",
+      "question": "How many goals of government are listed in the Preamble?",
+      "options": [
+        "Four",
+        "Five",
+        "Six",
+        "Seven"
+      ],
+      "correct": 2,
+      "explanation": "The six goals are: form a more perfect union, establish justice, insure domestic tranquility, provide for the common defense, promote the general welfare, and secure the blessings of liberty."
+    },
+    {
+      "topic": "preamble",
+      "question": "What is the purpose of the Preamble?",
+      "options": [
+        "To list the rights of citizens",
+        "To explain the goals of the government created by the Constitution",
+        "To describe the powers of the president",
+        "To explain how to amend the Constitution"
+      ],
+      "correct": 1,
+      "explanation": "The Preamble is the introduction that states why the Constitution was written. The rights of citizens are in the Bill of Rights, the president's powers are in Article II, and the amendment process is in Article V."
+    },
+    {
+      "topic": "preamble",
+      "question": "A jury listens to evidence in a trial and decides the defendant is not guilty. Which goal of the Preamble does this show?",
+      "options": [
+        "Provide for the common defense",
+        "Promote the general welfare",
+        "Insure domestic tranquility",
+        "Establish justice"
+      ],
+      "correct": 3,
+      "explanation": "Courts, trials, and juries deciding guilt or innocence are all about establishing justice. Common defense deals with the military, general welfare deals with common goods and health, and domestic tranquility deals with keeping peace at home."
+    },
+    {
+      "topic": "preamble",
+      "question": "The governor sends the National Guard to stop a riot and restore peace in a city. Which goal of the Preamble does this show?",
+      "options": [
+        "Insure domestic tranquility",
+        "Provide for the common defense",
+        "Establish justice",
+        "Form a more perfect union"
+      ],
+      "correct": 0,
+      "explanation": "Domestic tranquility means peace and safety inside the country. Common defense is about protecting the nation from outside threats, justice involves courts and trials, and a more perfect union is about improving the government itself."
+    },
+    {
+      "topic": "preamble",
+      "question": "The U.S. Navy builds new ships to protect the country's coasts from foreign attack. Which goal of the Preamble does this show?",
+      "options": [
+        "Promote the general welfare",
+        "Provide for the common defense",
+        "Insure domestic tranquility",
+        "Secure the blessings of liberty"
+      ],
+      "correct": 1,
+      "explanation": "Protecting the country with the military is providing for the common defense. Domestic tranquility is about peace inside the country, general welfare is about common goods and health, and blessings of liberty is about protecting rights."
+    },
+    {
+      "topic": "preamble",
+      "question": "The government sets rules to keep rivers and drinking water clean for everyone. Which goal of the Preamble does this show?",
+      "options": [
+        "Establish justice",
+        "Form a more perfect union",
+        "Promote the general welfare",
+        "Provide for the common defense"
+      ],
+      "correct": 2,
+      "explanation": "Protecting the environment and people's health is promoting the general welfare. No trial, change to the government, or military protection is involved here."
+    },
+    {
+      "topic": "preamble",
+      "question": "Congress passes a law to protect citizens' right to vote and stop unfair voting rules. Which goal of the Preamble does this show?",
+      "options": [
+        "Form a more perfect union",
+        "Provide for the common defense",
+        "Promote the general welfare",
+        "Secure the blessings of liberty"
+      ],
+      "correct": 3,
+      "explanation": "Protecting voting, civil rights, and constitutional freedoms is securing the blessings of liberty. A more perfect union is about improving the structure of government, common defense is about the military, and general welfare is about common goods and health."
+    },
+    {
+      "topic": "preamble",
+      "question": "The Framers replaced the Articles of Confederation with the Constitution to create a stronger, better government. Which goal of the Preamble does this show?",
+      "options": [
+        "Form a more perfect union",
+        "Establish justice",
+        "Insure domestic tranquility",
+        "Promote the general welfare"
+      ],
+      "correct": 0,
+      "explanation": "Making the government better than what came before is forming a more perfect union. The new government did help with justice, peace, and welfare too, but the act of replacing a weak government with a stronger one fits a more perfect union best."
+    },
+    {
+      "topic": "preamble",
+      "question": "The national government builds interstate highways that anyone can use. Which goal of the Preamble does this show?",
+      "options": [
+        "Establish justice",
+        "Promote the general welfare",
+        "Insure domestic tranquility",
+        "Secure the blessings of liberty"
+      ],
+      "correct": 1,
+      "explanation": "Highways are a common good that benefits everyone, which promotes the general welfare. No trial, peacekeeping, or protection of rights is involved."
+    },
+    {
+      "topic": "preamble",
+      "question": "Two states are arguing over a shared border, and the federal government steps in to keep peace between them. Which goal of the Preamble does this show?",
+      "options": [
+        "Provide for the common defense",
+        "Form a more perfect union",
+        "Insure domestic tranquility",
+        "Promote the general welfare"
+      ],
+      "correct": 2,
+      "explanation": "Keeping peace between the states is part of insuring domestic tranquility. Common defense is about threats from other countries, a more perfect union is about improving the government, and general welfare is about common goods."
+    },
+    {
+      "topic": "preamble",
+      "question": "In the Preamble, what does the word posterity mean?",
+      "options": [
+        "Future generations",
+        "The Founders",
+        "People living in other countries",
+        "Government leaders"
+      ],
+      "correct": 0,
+      "explanation": "Posterity means the people who come after us. The Preamble promises to secure liberty \"to ourselves and our Posterity,\" meaning for us and for future generations."
+    },
+    {
+      "topic": "preamble",
+      "question": "What does \"insure domestic tranquility\" mean?",
+      "options": [
+        "Protect the country from foreign armies",
+        "Make sure everyone has a home",
+        "Provide fair courts",
+        "Keep peace and order within the country"
+      ],
+      "correct": 3,
+      "explanation": "Domestic means at home (within the country) and tranquility means peace. Protecting against foreign armies is common defense, fair courts are establishing justice, and the phrase isn't about housing."
+    },
+    {
+      "topic": "preamble",
+      "question": "What is the difference between \"provide for the common defense\" and \"insure domestic tranquility\"?",
+      "options": [
+        "There is no difference",
+        "Common defense protects against outside threats; domestic tranquility keeps peace inside the country",
+        "Common defense is about courts; domestic tranquility is about the military",
+        "Common defense is for states; domestic tranquility is for cities"
+      ],
+      "correct": 1,
+      "explanation": "Both goals keep people safe, but common defense faces outward (other countries, war) while domestic tranquility faces inward (peace at home and between states). Neither one is about courts or about cities versus states."
+    },
+    {
+      "topic": "preamble",
+      "question": "Congress and the states add an amendment to fix a problem with how the president and vice president are elected. Which goal of the Preamble does this show?",
+      "options": [
+        "Establish justice",
+        "Provide for the common defense",
+        "Form a more perfect union",
+        "Promote the general welfare"
+      ],
+      "correct": 2,
+      "explanation": "Amending the Constitution to fix a problem makes the government better, which is forming a more perfect union. No trial, military action, or common good is involved here."
+    },
+    {
+      "topic": "preamble",
+      "question": "Which goal of the Preamble is most directly related to preventing another Shays' Rebellion?",
+      "options": [
+        "Establish justice",
+        "Insure domestic tranquility",
+        "Provide for the common defense",
+        "Secure the blessings of liberty"
+      ],
+      "correct": 1,
+      "explanation": "Shays' Rebellion was an uprising inside the country, so preventing another one is about keeping peace at home. Common defense is about foreign threats, and justice and liberty don't focus on stopping rebellions."
+    },
+    {
+      "topic": "preamble",
+      "question": "The federal government protects national parks so that everyone can enjoy them now and in the future. Which goal of the Preamble does this show?",
+      "options": [
+        "Insure domestic tranquility",
+        "Establish justice",
+        "Provide for the common defense",
+        "Promote the general welfare"
+      ],
+      "correct": 3,
+      "explanation": "Protecting the environment and providing places everyone can benefit from promotes the general welfare. There is no peacekeeping, trial, or military protection involved."
+    },
+    {
+      "topic": "preamble",
+      "question": "The phrase \"We the People\" in the Preamble best shows which principle of the Constitution?",
+      "options": [
+        "Popular sovereignty",
+        "Federalism",
+        "Checks and balances",
+        "Separation of powers"
+      ],
+      "correct": 0,
+      "explanation": "Popular sovereignty means the government's power comes from the people, and \"We the People\" says exactly that. Federalism divides power between national and state governments, and checks and balances and separation of powers are about the three branches."
+    },
+    {
+      "topic": "preamble",
+      "question": "Congress passes a civil rights law that bans discrimination based on race in public places. Which goal of the Preamble does this show?",
+      "options": [
+        "Provide for the common defense",
+        "Form a more perfect union",
+        "Secure the blessings of liberty",
+        "Insure domestic tranquility"
+      ],
+      "correct": 2,
+      "explanation": "Protecting civil rights and equal rights is securing the blessings of liberty. The law doesn't involve the military, a change to the Constitution itself, or stopping unrest."
+    },
+    {
+      "topic": "principles",
+      "question": "What is popular sovereignty?",
+      "options": [
+        "All political power comes from the people, and government rules with their consent",
+        "Power is divided between national and state governments",
+        "Each branch can limit the other branches",
+        "Government has only the powers listed in the Constitution"
+      ],
+      "correct": 0,
+      "explanation": "Popular sovereignty means the people are the source of government's power. Dividing power between national and state governments is federalism, branches limiting each other is checks and balances, and having only listed powers is limited government."
+    },
+    {
+      "topic": "principles",
+      "question": "Citizens in a state vote directly on a ballot question to decide whether their state should raise the minimum wage. Which principle does this best show?",
+      "options": [
+        "Separation of powers",
+        "Popular sovereignty",
+        "Checks and balances",
+        "Federalism"
+      ],
+      "correct": 1,
+      "explanation": "When citizens vote, they give their consent and use their power over the government, which is popular sovereignty. No branches are dividing power or checking each other, and the scenario isn't about national versus state power."
+    },
+    {
+      "topic": "principles",
+      "question": "What is republicanism?",
+      "options": [
+        "Every citizen votes on every law",
+        "The government is run by a king",
+        "People elect representatives at regular intervals to make decisions on their behalf",
+        "Power is shared between the national and state governments"
+      ],
+      "correct": 2,
+      "explanation": "In a republic, citizens elect representatives to make laws for them. Voting on every law is direct democracy, rule by a king is a monarchy, and sharing power between levels of government is federalism."
+    },
+    {
+      "topic": "principles",
+      "question": "Your state senator in Madison votes on a new law on behalf of the people in your district. Which principle does this best show?",
+      "options": [
         "Rule of law",
+        "Federalism",
+        "Individual rights",
+        "Republicanism"
+      ],
+      "correct": 3,
+      "explanation": "An elected representative making decisions for the people who elected them is republicanism. The scenario isn't about everyone following the law, the division of national and state power, or personal freedoms."
+    },
+    {
+      "topic": "principles",
+      "question": "What is limited government?",
+      "options": [
+        "The government can only do what the people have given it the power to do",
+        "The government can do anything it wants during an emergency",
+        "Only the president limits the government",
+        "There are only a limited number of people who can vote"
+      ],
+      "correct": 0,
+      "explanation": "Limited government means the government is not all-powerful; its powers are listed in the Constitution and restricted by the Bill of Rights. It has no emergency exception, it doesn't depend on the president alone, and it isn't about who can vote."
+    },
+    {
+      "topic": "principles",
+      "question": "Some members of Congress argue that a proposed law is not allowed because the Constitution doesn't give Congress that power. Which principle are they using?",
+      "options": [
+        "Popular sovereignty",
+        "Limited government",
+        "Republicanism",
+        "Federalism"
+      ],
+      "correct": 1,
+      "explanation": "Arguing that Congress can only use the powers listed in the Constitution is limited government. Popular sovereignty is about power coming from the people, republicanism is about electing representatives, and federalism is about dividing power between national and state governments."
+    },
+    {
+      "topic": "principles",
+      "question": "What is separation of powers?",
+      "options": [
+        "Dividing power between the national and state governments",
+        "Separating church and state",
+        "Placing legislative, executive, and judicial powers into three distinct branches",
+        "Keeping the military separate from the government"
+      ],
+      "correct": 2,
+      "explanation": "Separation of powers splits the government into a branch that makes laws, one that enforces laws, and one that interprets laws. Dividing national and state power is federalism, and church-state separation and the military aren't part of this principle."
+    },
+    {
+      "topic": "principles",
+      "question": "Congress writes a new law, the president enforces it, and the federal courts decide what it means in a court case. Which principle does this best show?",
+      "options": [
+        "Popular sovereignty",
+        "Federalism",
+        "Rule of law",
+        "Separation of powers"
+      ],
+      "correct": 3,
+      "explanation": "Each branch has its own separate job: make, enforce, and interpret laws. That is separation of powers. Nothing here shows the people's consent, the national-state split, or someone being held to the law."
+    },
+    {
+      "topic": "principles",
+      "question": "The president vetoes a bill passed by Congress. Which principle does this show?",
+      "options": [
+        "Checks and balances",
+        "Federalism",
         "Popular sovereignty",
         "Republicanism"
       ],
-      "correct": 2,
-      "topic": "principles"
+      "correct": 0,
+      "explanation": "A veto is the executive branch stopping, or checking, an action of the legislative branch. It doesn't involve state power, the people voting, or electing representatives."
     },
     {
-      "question": "The Three-Fifths Compromise was primarily about:",
+      "topic": "principles",
+      "question": "Congress overrides the president's veto with a two-thirds vote in both houses. Which principle does this show?",
       "options": [
-        "Taxation",
-        "Representation",
-        "Both taxation and representation",
-        "Trade regulation"
+        "Federalism",
+        "Checks and balances",
+        "Individual rights",
+        "Limited government"
+      ],
+      "correct": 1,
+      "explanation": "An override is Congress checking the president's veto, so each branch can limit the other. Federalism is about state and national power, individual rights is about personal freedoms, and limited government is about the government's total powers being restricted."
+    },
+    {
+      "topic": "principles",
+      "question": "The Supreme Court rules that a law passed by Congress is unconstitutional, so it cannot be enforced. Which principle does this show?",
+      "options": [
+        "Popular sovereignty",
+        "Republicanism",
+        "Checks and balances",
+        "Federalism"
       ],
       "correct": 2,
-      "topic": "convention"
+      "explanation": "The judicial branch is checking the legislative branch by declaring its law unconstitutional. The ruling doesn't come from the people voting, from elected representatives, or from the division of state and national power."
+    },
+    {
+      "topic": "principles",
+      "question": "The president nominates a Supreme Court justice, and the Senate votes to approve her. Which principle does this show?",
+      "options": [
+        "Federalism",
+        "Rule of law",
+        "Popular sovereignty",
+        "Checks and balances"
+      ],
+      "correct": 3,
+      "explanation": "Two branches have to cooperate, and each can block the other: the president nominates, and the Senate can reject. That is checks and balances. The scenario doesn't involve state power, someone breaking the law, or a public vote."
+    },
+    {
+      "topic": "principles",
+      "question": "What is federalism?",
+      "options": [
+        "The division of power between the national government and the state governments",
+        "The division of power among three branches",
+        "Government run by elected representatives",
+        "Government power coming from the people"
+      ],
+      "correct": 0,
+      "explanation": "Federalism splits power between the national (federal) government and the states. Three branches is separation of powers, elected representatives is republicanism, and power coming from the people is popular sovereignty."
+    },
+    {
+      "topic": "principles",
+      "question": "Wisconsin issues driver's licenses and runs its public schools, while the national government makes treaties with other countries. Which principle does this best show?",
+      "options": [
+        "Separation of powers",
+        "Federalism",
+        "Checks and balances",
+        "Republicanism"
+      ],
+      "correct": 1,
+      "explanation": "Different jobs belong to the state and national governments, which is federalism. Separation of powers and checks and balances are about the three branches, and republicanism is about electing representatives."
+    },
+    {
+      "topic": "principles",
+      "question": "Which of these powers belongs to the state governments, not the national government?",
+      "options": [
+        "Declaring war",
+        "Printing money",
+        "Issuing driver's licenses",
+        "Making treaties with other countries"
+      ],
+      "correct": 2,
+      "explanation": "States handle things like driver's licenses and local school systems. Declaring war, printing money, and making treaties are powers of the national government."
+    },
+    {
+      "topic": "principles",
+      "question": "Which power is shared by both the national and state governments?",
+      "options": [
+        "Declaring war",
+        "Regulating trade with other countries",
+        "Issuing driver's licenses",
+        "Collecting taxes"
+      ],
+      "correct": 3,
+      "explanation": "Both levels of government collect taxes, which is a shared (concurrent) power. Declaring war and regulating foreign trade belong only to the national government, and issuing driver's licenses belongs to the states."
+    },
+    {
+      "topic": "principles",
+      "question": "What is rule of law?",
+      "options": [
+        "Every person, including government leaders, must follow the law",
+        "Only judges have to follow the law",
+        "The president can make any law he or she wants",
+        "Laws only apply during elections"
+      ],
+      "correct": 0,
+      "explanation": "Rule of law means no one is above the law, not even the president. Judges are not the only ones bound by it, the president can't make laws alone, and laws always apply."
+    },
+    {
+      "topic": "principles",
+      "question": "A city's mayor is pulled over for speeding and gets the same ticket anyone else would. Which principle does this best show?",
+      "options": [
+        "Popular sovereignty",
+        "Rule of law",
+        "Federalism",
+        "Separation of powers"
+      ],
+      "correct": 1,
+      "explanation": "The mayor is treated the same as everyone else under the law, which is rule of law. There is no vote, no state-versus-national issue, and no split between branches in this scenario."
+    },
+    {
+      "topic": "principles",
+      "question": "What are individual rights?",
+      "options": [
+        "Powers that belong only to the states",
+        "Rules that limit how many people can vote",
+        "Personal liberties and protections from interference by others or the government",
+        "The jobs of each branch of government"
+      ],
+      "correct": 2,
+      "explanation": "Individual rights are freedoms like speech and religion that the government cannot take away. State powers are part of federalism, branch jobs are separation of powers, and individual rights don't limit voting."
+    },
+    {
+      "topic": "principles",
+      "question": "Citizens hold a protest criticizing the government, and police cannot arrest them for what they are saying. Which principle does this best show?",
+      "options": [
+        "Federalism",
+        "Separation of powers",
+        "Republicanism",
+        "Individual rights"
+      ],
+      "correct": 3,
+      "explanation": "The freedom to criticize the government is a personal liberty protected by the First Amendment, which is individual rights. Nothing here involves state power, the branches, or elected representatives."
+    },
+    {
+      "topic": "principles",
+      "question": "In our notes, what is a principle?",
+      "options": [
+        "A fundamental truth that serves as a basis for behavior",
+        "A person's judgment of what is important in life",
+        "A tangible outcome you can point to",
+        "A law passed by Congress"
+      ],
+      "correct": 0,
+      "explanation": "A principle is a core truth that guides behavior and is more objective than a value. A person's judgment of what is important is a value, a tangible outcome is an action, and a law passed by Congress is a statute."
+    },
+    {
+      "topic": "principles",
+      "question": "A citizen sues the federal government in an independent court, claiming the government violated her rights, and she wins. Which principle does this best show?",
+      "options": [
+        "Popular sovereignty",
+        "Rule of law",
+        "Federalism",
+        "Republicanism"
+      ],
+      "correct": 1,
+      "explanation": "The government itself has to follow the law and can lose in court, so no one is above the law. That is rule of law. There is no election, no state-versus-national power issue, and no representative making decisions."
+    },
+    {
+      "topic": "principles",
+      "question": "Which of these is NOT one of the principles of the Constitution?",
+      "options": [
+        "Federalism",
+        "Republicanism",
+        "Absolute monarchy",
+        "Popular sovereignty"
+      ],
+      "correct": 2,
+      "explanation": "An absolute monarchy is a king or queen with unlimited power, which is the opposite of what the Framers wanted. Federalism, republicanism, and popular sovereignty are all principles of the Constitution."
+    },
+    {
+      "topic": "principles",
+      "question": "How are separation of powers and checks and balances different?",
+      "options": [
+        "They mean the same thing",
+        "Separation of powers divides national and state power; checks and balances divides the branches",
+        "Separation of powers is in the Articles; checks and balances is in the Constitution",
+        "Separation of powers divides the government into branches; checks and balances lets each branch limit the others"
+      ],
+      "correct": 3,
+      "explanation": "Separation of powers gives each branch its own job, and checks and balances gives each branch ways to stop the others. They work as a pair but aren't the same. Dividing national and state power is federalism, and the Articles had no separate branches."
+    },
+    {
+      "topic": "billrights",
+      "question": "What is the Bill of Rights?",
+      "options": [
+        "The first ten amendments to the Constitution",
+        "The first ten articles of the Constitution",
+        "The Declaration of Independence",
+        "A list of laws passed by the first Congress"
+      ],
+      "correct": 0,
+      "explanation": "The Bill of Rights is the first ten amendments, added to protect individual rights. The articles are the main body of the Constitution, the Declaration announced independence, and these are amendments, not ordinary laws."
+    },
+    {
+      "topic": "billrights",
+      "question": "In what year was the Bill of Rights ratified?",
+      "options": [
+        "1776",
+        "1787",
+        "1791",
+        "1865"
+      ],
+      "correct": 2,
+      "explanation": "Virginia became the last state needed to ratify the Bill of Rights on December 15, 1791. 1776 is the Declaration of Independence, 1787 is the Constitutional Convention, and 1865 is the end of the Civil War."
+    },
+    {
+      "topic": "billrights",
+      "question": "Which of these is NOT protected by the 1st Amendment?",
+      "options": [
+        "Freedom of speech",
+        "Freedom of religion",
+        "Freedom of the press",
+        "The right to a speedy trial"
+      ],
+      "correct": 3,
+      "explanation": "The 1st Amendment protects religion, speech, press, assembly, and petition. The right to a speedy trial is part of the 6th Amendment."
+    },
+    {
+      "topic": "billrights",
+      "question": "Neighbors collect signatures asking the city council to fix a dangerous intersection. Which right are they using?",
+      "options": [
+        "The right to petition (1st Amendment)",
+        "The right to a jury trial (7th Amendment)",
+        "Protection from unreasonable searches (4th Amendment)",
+        "The right to bear arms (2nd Amendment)"
+      ],
+      "correct": 0,
+      "explanation": "Asking the government to fix a problem is petitioning, which is protected by the 1st Amendment. No trial, search, or weapons are involved."
+    },
+    {
+      "topic": "billrights",
+      "question": "In the 1st Amendment, what does abridging mean?",
+      "options": [
+        "Building",
+        "Putting a limit on",
+        "Protecting",
+        "Voting on"
+      ],
+      "correct": 1,
+      "explanation": "Congress shall make no law \"abridging\" the freedom of speech means Congress can't put limits on it. It doesn't mean building, protecting, or voting."
+    },
+    {
+      "topic": "billrights",
+      "question": "The 1st Amendment protects the right to petition the government for a \"redress of grievances.\" What does that mean?",
+      "options": [
+        "Asking to change your clothes",
+        "Asking for a new government",
+        "Asking the government to correct a wrong",
+        "Asking for a lower tax rate only"
+      ],
+      "correct": 2,
+      "explanation": "Redress means correcting a wrong, and a grievance is a wrong caused by someone else. So citizens can ask the government to fix problems. It's broader than taxes and doesn't mean replacing the government."
+    },
+    {
+      "topic": "billrights",
+      "question": "Which statement about the 2nd Amendment matches what we learned?",
+      "options": [
+        "It bans all gun laws",
+        "It only applies to soldiers",
+        "It was repealed in 1865",
+        "It protects an individual right to own firearms, but states and localities can make some regulations"
+      ],
+      "correct": 3,
+      "explanation": "Modern Supreme Court interpretations recognize an individual right to own guns for lawful purposes like self-defense, while still allowing some regulations. It doesn't ban all gun laws, isn't limited to soldiers, and has never been repealed."
+    },
+    {
+      "topic": "billrights",
+      "question": "During peacetime, the army orders a family to let soldiers live in their home without the family's consent. Which amendment protects the family?",
+      "options": [
+        "3rd Amendment",
+        "2nd Amendment",
+        "4th Amendment",
+        "8th Amendment"
+      ],
+      "correct": 0,
+      "explanation": "The 3rd Amendment prevents the government from forcing people to quarter (house) soldiers in peacetime. The 2nd is about weapons, the 4th is about searches, and the 8th is about punishment."
+    },
+    {
+      "topic": "billrights",
+      "question": "In the 3rd Amendment, what does quartered mean?",
+      "options": [
+        "Divided into four parts",
+        "Housed",
+        "Paid",
+        "Arrested"
+      ],
+      "correct": 1,
+      "explanation": "To quarter soldiers means to house them. Even though \"quarter\" can mean a fourth, that isn't its meaning in this amendment."
+    },
+    {
+      "topic": "billrights",
+      "question": "Police search a person's home for stolen goods without a warrant or the owner's permission. Which amendment is most relevant?",
+      "options": [
+        "1st Amendment",
+        "5th Amendment",
+        "4th Amendment",
+        "6th Amendment"
+      ],
+      "correct": 2,
+      "explanation": "The 4th Amendment protects against unreasonable searches and seizures and generally requires a warrant based on probable cause. The 1st is about expression, the 5th about legal rights like self-incrimination, and the 6th about a fair trial."
+    },
+    {
+      "topic": "billrights",
+      "question": "In the 4th Amendment, what are \"effects\"?",
+      "options": [
+        "Results of a crime",
+        "Laws passed by Congress",
+        "Court decisions",
+        "Personal belongings"
+      ],
+      "correct": 3,
+      "explanation": "The 4th Amendment protects people's \"persons, houses, papers, and effects,\" and effects means personal belongings. It doesn't refer to results, laws, or court decisions here."
+    },
+    {
+      "topic": "billrights",
+      "question": "Under the 4th Amendment, a warrant must be based on probable cause. What is probable cause?",
+      "options": [
+        "A good reason, based on facts, to believe a crime has been committed",
+        "A guess that someone might be guilty",
+        "Permission from the person being searched",
+        "An order from the president"
+      ],
+      "correct": 0,
+      "explanation": "Probable cause requires real facts or evidence, not just a hunch. A guess isn't enough, permission is consent rather than probable cause, and warrants come from judges, not the president."
+    },
+    {
+      "topic": "billrights",
+      "question": "A person on trial refuses to answer questions that might show she committed the crime. She is \"pleading the Fifth.\" Which right is she using?",
+      "options": [
+        "Right to a speedy trial",
+        "Protection against self-incrimination",
+        "Right to bear arms",
+        "Protection against excessive bail"
+      ],
+      "correct": 1,
+      "explanation": "The 5th Amendment says no one can be compelled (forced) to be a witness against himself or herself. A speedy trial is the 6th Amendment, bearing arms is the 2nd, and excessive bail is the 8th."
+    },
+    {
+      "topic": "billrights",
+      "question": "A man is found not guilty of robbery. The prosecutor wants to try him again for the same robbery. Which protection stops this?",
+      "options": [
+        "Freedom of assembly",
+        "Right to counsel",
+        "Protection against double jeopardy (5th Amendment)",
+        "Protection against quartering soldiers"
+      ],
+      "correct": 2,
+      "explanation": "Double jeopardy means being tried twice for the same crime, which the 5th Amendment forbids. Assembly (1st), counsel (6th), and quartering (3rd) don't apply to being retried."
+    },
+    {
+      "topic": "billrights",
+      "question": "The government wants to take a family's land to build a highway. Under the 5th Amendment, what must the government do?",
+      "options": [
+        "Nothing, because the government can take any land it wants",
+        "Let the family vote on the highway",
+        "Give the family a jury trial",
+        "Pay the family fair (just) compensation for the land"
+      ],
+      "correct": 3,
+      "explanation": "The 5th Amendment allows private property to be taken for public use only with just compensation, and \"just\" means fair. The government can't take land for free, and the amendment doesn't require a vote or a jury trial."
+    },
+    {
+      "topic": "billrights",
+      "question": "What is due process?",
+      "options": [
+        "The steps the government must follow before taking away a person's life, liberty, or property",
+        "The right to own a gun",
+        "The process for amending the Constitution",
+        "The process for electing the president"
+      ],
+      "correct": 0,
+      "explanation": "Due process means the government must follow fair, established legal steps before punishing someone. It isn't about guns, amending the Constitution, or elections."
+    },
+    {
+      "topic": "billrights",
+      "question": "A person accused of a serious crime can't afford a lawyer, so the court appoints a public defender. Which amendment requires this?",
+      "options": [
+        "5th Amendment",
+        "6th Amendment",
+        "7th Amendment",
+        "8th Amendment"
+      ],
+      "correct": 1,
+      "explanation": "The 6th Amendment guarantees the assistance of counsel (a lawyer) in criminal cases. The 5th covers rights like self-incrimination, the 7th covers civil trials, and the 8th covers bail and punishment."
+    },
+    {
+      "topic": "billrights",
+      "question": "The 6th Amendment guarantees an impartial jury. What does impartial mean?",
+      "options": [
+        "Fast",
+        "Made up of lawyers",
+        "Fair and not biased",
+        "Chosen by the defendant"
+      ],
+      "correct": 2,
+      "explanation": "An impartial jury is fair and doesn't favor either side. Speed is a separate 6th Amendment right, and juries are made up of ordinary citizens, not lawyers or people the defendant picks."
+    },
+    {
+      "topic": "billrights",
+      "question": "A person accused of robbery is held in jail for two years without a trial, even though they asked for one right away. Which right is being violated?",
+      "options": [
+        "Freedom of speech",
+        "Protection against unreasonable searches",
+        "Protection against quartering soldiers",
+        "Right to a speedy trial (6th Amendment)"
+      ],
+      "correct": 3,
+      "explanation": "The 6th Amendment guarantees a speedy trial without unnecessary delays. Speech (1st), searches (4th), and quartering (3rd) are unrelated to waiting for a trial."
+    },
+    {
+      "topic": "billrights",
+      "question": "Two neighbors sue each other over a damaged fence, and one of them asks for a jury to decide the case. Which amendment applies?",
+      "options": [
+        "7th Amendment",
+        "6th Amendment",
+        "5th Amendment",
+        "4th Amendment"
+      ],
+      "correct": 0,
+      "explanation": "The 7th Amendment guarantees a jury trial in certain civil cases, which are disputes between people rather than crimes. The 6th Amendment covers criminal trials, the 5th covers rights like due process, and the 4th covers searches."
+    },
+    {
+      "topic": "billrights",
+      "question": "A judge sets bail at $1 million for someone accused of shoplifting a $20 shirt. Which amendment is most relevant?",
+      "options": [
+        "6th Amendment",
+        "8th Amendment",
+        "4th Amendment",
+        "10th Amendment"
+      ],
+      "correct": 1,
+      "explanation": "The 8th Amendment bans excessive bail, meaning an unreasonably high amount to be released before trial. The 6th is about a fair trial, the 4th about searches, and the 10th about state powers."
+    },
+    {
+      "topic": "billrights",
+      "question": "Which of these is the best example of what the 8th Amendment's ban on cruel and unusual punishment prevents?",
+      "options": [
+        "A $50 fine for a parking ticket",
+        "A 30-day jail sentence for theft",
+        "Cutting off a person's hand as punishment for stealing",
+        "Community service for vandalism"
+      ],
+      "correct": 2,
+      "explanation": "Cutting off a hand is far too harsh and inhumane, which makes it cruel and unusual. The other punishments are reasonable for the offenses."
+    },
+    {
+      "topic": "billrights",
+      "question": "A right to privacy isn't specifically listed in the Constitution. Which amendment says people can still have rights that aren't listed?",
+      "options": [
+        "1st Amendment",
+        "4th Amendment",
+        "10th Amendment",
+        "9th Amendment"
+      ],
+      "correct": 3,
+      "explanation": "The 9th Amendment says the enumeration (listing) of certain rights doesn't mean people lack other rights. The 10th is about powers of the states, the 1st about expression, and the 4th about searches."
+    },
+    {
+      "topic": "billrights",
+      "question": "Your state decides how many credits students need to graduate from high school. Which amendment gives states this kind of power?",
+      "options": [
+        "10th Amendment",
+        "9th Amendment",
+        "1st Amendment",
+        "5th Amendment"
+      ],
+      "correct": 0,
+      "explanation": "The 10th Amendment says powers not delegated (given) to the federal government belong to the states or the people, and education is one of those powers. The 9th is about unlisted rights, the 1st about expression, and the 5th about legal rights."
+    },
+    {
+      "topic": "billrights",
+      "question": "In the 10th Amendment, what does delegated mean?",
+      "options": [
+        "Taken away",
+        "Given as a responsibility to another",
+        "Voted on by the people",
+        "Kept secret"
+      ],
+      "correct": 1,
+      "explanation": "Delegated powers are powers the Constitution gives to the federal government. Anything not delegated belongs to the states or the people. It doesn't mean taken away, voted on, or kept secret."
+    },
+    {
+      "topic": "billrights",
+      "question": "When it was first ratified, who did the Bill of Rights limit?",
+      "options": [
+        "State governments only",
+        "Local governments only",
+        "Only the federal government",
+        "All levels of government equally"
+      ],
+      "correct": 2,
+      "explanation": "The Bill of Rights originally limited only the federal government. After the 14th Amendment (1868), the Supreme Court began applying most of its protections to state and local governments too, starting in the 1920s."
+    },
+    {
+      "topic": "billrights",
+      "question": "A newspaper publishes an article criticizing the mayor, and the mayor orders the newspaper shut down. Which right is being violated?",
+      "options": [
+        "Right to petition",
+        "Right to assemble",
+        "Due process",
+        "Freedom of the press"
+      ],
+      "correct": 3,
+      "explanation": "Freedom of the press in the 1st Amendment lets news organizations publish without government control. Petition and assembly are other 1st Amendment rights, but they're not what's being blocked here, and due process is about legal steps before punishment."
+    },
+    {
+      "topic": "billrights",
+      "question": "A town passes a law requiring everyone to attend and pay for one particular church. Which amendment does this violate?",
+      "options": [
+        "1st Amendment",
+        "3rd Amendment",
+        "7th Amendment",
+        "9th Amendment"
+      ],
+      "correct": 0,
+      "explanation": "The 1st Amendment says the government can't establish an official religion or stop people from practicing their faith. The 3rd is about quartering soldiers, the 7th about civil trials, and the 9th about unlisted rights."
+    },
+    {
+      "topic": "billrights",
+      "question": "Which amendment is mostly about a fair trial, including a lawyer, a public trial, and knowing the charges against you?",
+      "options": [
+        "4th Amendment",
+        "5th Amendment",
+        "6th Amendment",
+        "8th Amendment"
+      ],
+      "correct": 2,
+      "explanation": "The 6th Amendment covers a speedy and public trial, an impartial jury, being told the charges, confronting witnesses, and having a lawyer. The 4th covers searches, the 5th covers rights like double jeopardy, and the 8th covers punishment."
+    },
+    {
+      "topic": "billrights",
+      "question": "A defendant wants the court to require a witness to come and testify in her defense. Which amendment gives her this right?",
+      "options": [
+        "4th Amendment",
+        "5th Amendment",
+        "8th Amendment",
+        "6th Amendment"
+      ],
+      "correct": 3,
+      "explanation": "The 6th Amendment gives defendants compulsory (mandatory) process to obtain witnesses in their favor. The 4th is about searches, the 5th about rights like self-incrimination, and the 8th about bail and punishment."
     }
   ],
   "gameScenarios": [
